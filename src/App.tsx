@@ -2,7 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './index.css'
-import Nav from './landing'
+import Landing from './landing'
+import Nav from './Nav'
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div>
       <div>
         <Nav/>
+        <Landing/>
       </div>
       
     </div>

@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
+body{
+    font-family: "Onest", sans-serif;
+}
+
+.visiblenav{
+    animation: drop;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.hiddennav{
+    animation: climb;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+
+
+}
+
+@keyframes drop {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes climb {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); display: none; } }
