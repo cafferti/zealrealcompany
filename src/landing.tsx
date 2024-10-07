@@ -27,13 +27,13 @@ function Nav() {
   return (
     <div className="landing">
     <main className="h-screen bg-center bg-cover w-[100%] bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/slides/2023/10/25/696c44fa-082c-414c-9222-a211b2f6bc83.jpg')]">
-      <nav className={ `flex justify-between px-[5%] py-[2rem] items-center bg ${navmonitor}`}>
-        <img  className="w-[50%] h-[50%]" src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/logos/2022/08/17/34f7a0a9-8d33-4345-93ff-699c5611dfa4.png' alt="" />
+      <nav className={ `flex justify-between px-[5%] sm:px-[3%] py-[2rem] items-center bg sm:py-[1rem] ${navmonitor}`}>
+        <img  className="w-[50%] sm:w-[30%] h-[50%]" src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/logos/2022/08/17/34f7a0a9-8d33-4345-93ff-699c5611dfa4.png' alt="" />
 
         <div className='flex items-center justify-center w-[35%]'>
-          <a className='w-fit' href=""> <img className='w-[70%] opacity-70' src={saulltechimg} alt="" /> </a>
-          <a href=""> <img className='w-[70%] opacity-70' src={saulltechphone} alt="" /> </a>
-         <img onClick={togglenav} className='opacity-70 w-[30%]' src={ navmonitor === '' ? saulltechmenu : saulltechclose} alt="" />
+          <a className='w-fit' href=""> <img className='w-[70%] sm:w-[55%] opacity-70' src={saulltechimg} alt="" /> </a>
+          <a href=""> <img className='w-[70%] sm:w-[55%] opacity-70' src={saulltechphone} alt="" /> </a>
+         <img onClick={togglenav} className='opacity-70 w-[30%] sm:w-[15%]' src={ navmonitor === '' ? saulltechmenu : saulltechclose} alt="" />
         </div>
       </nav>
 
@@ -57,11 +57,15 @@ function Nav() {
 
 
       <div className='text-white text-center mt-[8rem]'>
-        <h1 className='border-b-2 py-6  text-[1.4rem]'>Helping you Sell your Home since <br /> 1999</h1>
-        <a className='bg-[#aa3939] text-[1rem] mt-7 inline-block w-[80%] py-[1rem] my-0 rounded-lg' href="">FOR SALE</a>
-        <a className='bg-[#aa3939] text-[1rem] mt-4 inline-block w-[80%] py-[1rem]  rounded-lg' href="">FOR RENT</a>
-        <a className='bg-[#aa3939] text-[1rem] mt-4 inline-block w-[80%] py-[1rem]  rounded-lg' href="">VALUATION</a>
-        <a className='bg-[#aa3939] text-[1rem] mt-4 inline-block w-[80%] py-[1rem]  rounded-lg' href="">CONTACT US</a>
+      <h1 className='border-b-[1px] py-6 md:w-[50rem] mx-[auto]  text-[1.4rem]  tracking-wider md:text-[4rem] md:font-thin md:mt-[12rem] '>Helping you Sell your Home since 1999</h1>
+
+        <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] md:grid-cols-2 xl:grid-cols-4 gap-x-4 gap-y-7  items-center lg:items-start md:mx-[20%] md:max-w-[50rem] pt-[1rem] lg:mx-auto">
+        <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm lg:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta lg:px-6' href="">FOR SALE</a>
+        <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm lg:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta lg:px-6 ' href="">FOR RENT</a>
+        <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm lg:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta lg:px-6 ' href="">VALUATION</a>
+        <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm lg:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta lg:px-6 ' href="">CONTACT US</a>
+
+        </div>
       </div>
     </main>
     <div className='bg-black h-screen'>

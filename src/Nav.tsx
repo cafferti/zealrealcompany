@@ -1,6 +1,4 @@
 
-import saulltechimg from './assets/Mail.svg'
-import saulltechphone from './assets/Phone call.svg'
 import saulltechmenu from './assets/menu.svg'
 import saulltechclose from './assets/Close_MD.svg'
 import saulltechprofile from './assets/profile.svg'
@@ -42,11 +40,11 @@ function Nav() {
   
   return (
     <main className={`${ showNavOnScroll ? 'fixed top-0 w-full z-50 visiblenav' : 'hiddennav absolute' }`}>
-    <nav className={ `flex justify-between px-[5%] py-[2rem] items-center bg bg-[#003333]`}>
+    <nav className={ ` flex justify-between px-[5%] py-[2rem] items-center bg bg-[#003333]`}>
         <img  className="w-[50%] h-[50%]" src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/logos/2022/08/17/34f7a0a9-8d33-4345-93ff-699c5611dfa4.png' alt="" />
 
         
-         <img onClick={togglenav} className='opacity-70 w-[10%]' src={ navmonitor2 === 'hidden' ? saulltechmenu : saulltechclose} alt="" />
+         <img onClick={togglenav} className='opacity-70 w-[10%] ' src={ navmonitor2 === 'hidden' ? saulltechmenu : saulltechclose} alt="" />
         
       </nav>
 
