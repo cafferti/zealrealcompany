@@ -33,7 +33,7 @@ function Nav() {
 
           <div className='  w-[35%]  md:w-[60%]  transition-all '>
             <div className='flex items-center justify-end md:border-b md:py-1'>
-              <a className='w-fit md:flex items-center md:mr-[] self-end' href=""> <img className='md:w-[12%] text-white w-[70%] sm:w-[55%] opacity-70' src={saulltechimg} alt="" /> <p className='text-white px-1 hidden md:block text-[60%] opacity-80' >selveencompanyltd@gmail.com</p> </a>
+              <a className='w-fit md:flex items-center md:mr-[]' href=""> <img className='md:w-[12%] text-white w-[70%] sm:w-[55%] opacity-70' src={saulltechimg} alt="" /> <p className='text-white px-1 hidden md:block text-[60%] opacity-80' >selveencompanyltd@gmail.com</p> </a>
               <a className='md:flex items-center justify-end' href=""> <img className=' w-[70%] sm:w-[55%] md:w-[12%] opacity-70' src={saulltechphone} alt="" /> <p className="text-white px-1 hidden md:block text-[60%] opacity-80">08144926731</p> </a>
               <img onClick={togglenav} className='opacity-70 w-[30%] sm:w-[15%] md:hidden' src={navmonitor === '' ? saulltechmenu : saulltechclose} alt="" />
             </div>
@@ -77,7 +77,7 @@ function Nav() {
         </div>
 
 
-        <div className='text-white text-center mt-[5%]'>
+        <div className='text-white text-center mt-[40%]'>
           <h1 className='border-b-[1px] py-6 md:w-[30rem] mx-[auto]  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin md:mt-[] '>Helping you Sell your Home since 1999</h1>
 
           <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-7  items-center md:items-start md:max-w-[50rem] pt-[1rem] md:mx-auto">
