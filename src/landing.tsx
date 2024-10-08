@@ -92,9 +92,9 @@ function Nav() {
       </main>
       <div className=' text-center px-[5%] bg-[#f3f4f4] pb-[7rem]'>
         <img className='w-[50%] inline-block my-[2.5rem] sm:w-[25%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/08/17/039efcbf-77da-4b43-8b46-9965b02f9ab5.png' alt="" />
-        <h1 className='text-[1.4rem] mb-5 opacity-80' >Your Selling and Buying Expert</h1>
+        <h1 className='text-[3rem] mb-5 opacity-80' >Your Selling and Buying Expert</h1>
 
-        <p className='text-lg tracking-tight leading-normal opacity-85 md:px-[8rem] md:text-2xl '>Our main aim is to make moving easy! <br />
+        <p className='text-lg tracking-tight leading-normal opacity-85 md:px-[8rem] md:text-xl '>Our main aim is to make moving easy! <br />
           Whether you’re a young couple moving into your first home, an expanding 
           family looking to sell your starter home for something roomier, a landlord with
            high hopes for your buy-to-let property, or a tenant looking for a top-notch
