@@ -6,11 +6,9 @@ import saulltechprofile from './assets/profile.svg'
 import Flag from 'react-world-flags';
 import { useState } from 'react'
 import saulltecharrow from './assets/Arrow 1.svg'
-import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import saulltecharrowback from './assets/Frame 155 (1).svg'
 import saulltecharrowfront from './assets/frameack.svg'
-import saulltechbed from './assets/bed.svg'
 import { faBed, faBath } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart'
