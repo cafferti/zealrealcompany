@@ -112,7 +112,7 @@ function Nav() {
         </div>
 
 
-        <div className='text-white text-center mt-[20%] sm:mt-[8%]'>
+        <div className='text-white text-center mt-[20%] sm:py-[auto]'>
           <h1 className='border-b-[1px] py-6 md:w-[30rem] mx-[auto]  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin md:mt-[] '>Helping you Sell your Home since 1999</h1>
 
           <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-7  items-center md:items-start md:max-w-[50rem] pt-[1rem] md:mx-auto">
@@ -151,18 +151,18 @@ function Nav() {
         {/* single card */}
         <div className="section mx-[5%] pt-[2rem] relative shadow-xl px-[1%] ">
           <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem]'>
+          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
             <img src={saulltecharrowback} alt="" />
           </button>
 
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] '>
+          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
             <img src={saulltecharrowfront} alt="" />
           </button>
 
           </div>
 
 
-          <div className='transition-all h-[20rem] w-full'>
+          <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
             {oncec === 1 && (
               <img className=' h-full object-cover block  rounded-xl w-[100%]'
                 src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
@@ -206,18 +206,18 @@ function Nav() {
 
           <div className="section mx-[5%] pt-[2rem] relative  shadow-xl px-[1%] rounded-xl ">
           <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem]'>
+          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
             <img src={saulltecharrowback} alt="" />
           </button>
 
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] '>
+          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
             <img src={saulltecharrowfront} alt="" />
           </button>
 
           </div>
 
 
-          <div className='transition-all h-[20rem] w-full'>
+          <div className='transition-all h-[15rem] w-full]'>
             {oncec === 1 && (
               <img className=' h-full object-cover block  rounded-xl w-[100%]'
                 src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
@@ -261,18 +261,18 @@ function Nav() {
           
             <div className="section mx-[5%] pt-[2rem] relative shadow-xl px-[1%] rounded-xl  ">
           <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem]'>
+          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
             <img src={saulltecharrowback} alt="" />
           </button>
 
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] '>
+          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem]'>
             <img src={saulltecharrowfront} alt="" />
           </button>
 
           </div>
 
 
-          <div className='transition-all h-[20rem] w-full'>
+          <div className='transition-all h-[20rem] w-full sm:h-[15rem]'>
             {oncec === 1 && (
               <img className=' h-full object-cover block  rounded-xl w-[100%]'
                 src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
@@ -316,18 +316,18 @@ function Nav() {
 
           <div className="section mx-[5%] pt-[2rem] relative shadow-xl px-[1%] rounded-xl ">
           <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem]'>
+          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
             <img src={saulltecharrowback} alt="" />
           </button>
 
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] '>
+          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
             <img src={saulltecharrowfront} alt="" />
           </button>
 
           </div>
 
 
-          <div className='transition-all h-[20rem] w-full'>
+          <div className='transition-all h-[20rem] w-full sm:h-[15rem]'>
             {oncec === 1 && (
               <img className=' h-full object-cover block  rounded-xl w-[100%]'
                 src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
