@@ -58,7 +58,7 @@ function Nav() {
           </div>
         </nav>
 
-        <div className={`bg-[#003333] text-white absolute w-[100%] px-[5%] text-lg  ${navmonitor2}`}>
+        <div className={`bg-[#003333] text-white absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2}`}>
           <a className='block py-2 opacity-70' href="">Buy</a>
           <a className='block py-2  opacity-70' href="">Rent</a>
           <a className=' block py-2 opacity-70' href="">New Builds </a>
