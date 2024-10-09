@@ -21,9 +21,9 @@ function Nav() {
   const [navmonitor, Setnavmonitor] = useState('')
   const [navmonitor2, Setnavmonitor2] = useState('hidden')
   const [oncec, setoncec] = useState(1)
-    const [twice, settwice] = useState(1)
-    const [thrice, setthrice] = useState(1)
-    const [fourth, setfourth] = useState(1)
+  const [twice, settwice] = useState(1)
+  const [thrice, setthrice] = useState(1)
+  const [fourth, setfourth] = useState(1)
 
 
 
@@ -76,7 +76,7 @@ function Nav() {
   };
 
 
-  
+
   const incrementthrice = () => {
     if (thrice < 3) {
       console.log(thrice)
@@ -99,7 +99,7 @@ function Nav() {
 
 
 
-    
+
   const incrementfourth = () => {
     if (fourth < 3) {
       setfourth(fourth + 1);
@@ -281,8 +281,8 @@ function Nav() {
           {/* singlecard */}
 
 
-                    {/* single card */}
-                    <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+          {/* single card */}
+          <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
             <div>
               <button onClick={decrementtwice} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                 <img src={saulltecharrowback} alt="" />
@@ -341,8 +341,8 @@ function Nav() {
 
 
 
-                    {/* single card */}
-                    <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+          {/* single card */}
+          <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
             <div>
               <button onClick={decrementthrice} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                 <img src={saulltecharrowback} alt="" />
@@ -362,13 +362,13 @@ function Nav() {
                   alt="First"
                 />
               )}
-              {thrice=== 2 && (
+              {thrice === 2 && (
                 <img className=' h-full object-cover block  rounded-xl w-[100%]'
                   src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/4c8e360d-b067-4e75-8456-44205cb16b9e.jpg"
                   alt="Second"
                 />
               )}
-              {thrice=== 3 && (
+              {thrice === 3 && (
                 <img className='h-full object-cover block  rounded-xl w-[100%]'
                   src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
                   alt="Third"
@@ -463,9 +463,9 @@ function Nav() {
 
 
 
- 
 
-          
+
+
 
 
 
@@ -474,6 +474,60 @@ function Nav() {
 
 
       </div>
+
+      <div className='cards  w-[100%] h-screen text-white'>
+
+        <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-4 mx-[5%] sm:mx-[1%] pt-6'>
+          {/* singlecard */}
+          <div className="saleproperties h-[23rem] sm:h-[20rem] group overflow-hidden relative rounded-lg bg-cover bg-center  bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/popular-searches/2023/10/25/54039769-6f25-4ff2-b365-95b778887c85.jpg')]">
+            <div className='bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(34,102,102,0.85)] h-[100%] px-8 pt-[12rem] sm:pt-[10rem] rounded-xl transition-all duration-150'>
+              <h1 className='text-[1.5rem] mb-[2rem] opacity-80  group-hover:sm:mt-[0px] sm:mt-[2rem] transition-all duration-700'>Sale Properties</h1>
+              <a className='  hover:bg-white hover:text-black hover:opacity-75 transition-all duration-700 border rounded-lg py-2 px-5 uppercase block w-fit sm:absolute sm:bottom-[-3rem] group-hover:sm:bottom-[2rem]'>
+                View More
+              </a>
+            </div>
+          </div>
+          {/* singlecard */}
+          {/* singlecard */}
+          <div className="saleproperties h-[23rem] sm:h-[20rem] group overflow-hidden relative rounded-lg bg-cover bg-center  bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/popular-searches/2023/10/25/b93972d2-a109-4e06-b045-8c10111f88fe.jpg')]">
+            <div className='bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(34,102,102,0.85)] h-[100%] px-8 pt-[12rem]  sm:pt-[10rem] rounded-xl transition-all duration-150'>
+              <h1 className='text-[1.5rem] mb-[2rem] opacity-80  group-hover:sm:mt-[0px] sm:mt-[2rem] transition-all duration-700'>Meet the Team</h1>
+              <a className='  hover:bg-white hover:text-black hover:opacity-75 transition-all duration-700 border rounded-lg py-2 px-5 uppercase block w-fit sm:absolute sm:bottom-[-3rem] group-hover:sm:bottom-[2rem]'>
+                View More
+              </a>
+            </div>
+          </div>
+          {/* singlecard */}
+          <div className="saleproperties h-[23rem] sm:h-[20rem] group overflow-hidden relative rounded-lg bg-cover bg-center  bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/popular-searches/2023/10/25/9708b692-ae02-43db-950c-3ebd85c85e94.jpg')]">
+            <div className='bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(34,102,102,0.85)] h-[100%] px-8 pt-[12rem]  sm:pt-[10rem] rounded-xl transition-all duration-150'>
+              <h1 className='text-[1.5rem] mb-[2rem] opacity-80  group-hover:sm:mt-[0px] sm:mt-[2rem] transition-all duration-700'>Careers</h1>
+              <a className=' hover:bg-white hover:text-black hover:opacity-75 transition-all duration-700 border rounded-lg py-2 px-5 uppercase block w-fit sm:absolute sm:bottom-[-3rem] group-hover:sm:bottom-[2rem]'>
+                View More
+              </a>
+            </div>
+          </div>
+          {/* singlecard */}
+          {/* singlecard */}
+          {/* singlecard */}
+          <div className="saleproperties h-[23rem] sm:h-[20rem] group overflow-hidden relative rounded-lg bg-cover bg-center  bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/popular-searches/2023/10/25/ba08a505-e516-4aa1-bfe4-39827ecb7839.jpg')]">
+            <div className='bg-[rgba(0,0,0,0.4)] hover:bg-[rgba(34,102,102,0.85)] h-[100%] px-8 pt-[12rem]  sm:pt-[10rem] rounded-xl transition-all duration-150'>
+              <h1 className='text-[1.5rem] mb-[2rem] opacity-80  group-hover:sm:mt-[0px] sm:mt-[2rem] transition-all duration-700'>About Us</h1>
+              <a className='  hover:bg-white hover:text-black hover:opacity-75 transition-all duration-700 border rounded-lg py-2 px-5 uppercase block w-fit sm:absolute sm:bottom-[-3rem] group-hover:sm:bottom-[2rem]'>
+                View More
+              </a>
+            </div>
+          </div>
+          {/* singlecard */}
+
+
+
+
+        </div>
+
+
+
+      </div>
+
     </div>
   )
 }
