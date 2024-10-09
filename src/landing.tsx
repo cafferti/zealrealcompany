@@ -78,10 +78,10 @@ function Nav() {
 
   
   const incrementthrice = () => {
-    if (twice < 3) {
+    if (thrice < 3) {
       console.log(thrice)
 
-      settwice(thrice + 1);
+      setthrice(thrice + 1);
     } else {
       setthrice(3);
       console.log(thrice)
