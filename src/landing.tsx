@@ -9,7 +9,7 @@ import saulltecharrow from './assets/Arrow 1.svg'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import saulltecharrowback from './assets/Frame 155 (1).svg'
 import saulltecharrowfront from './assets/frameack.svg'
-import { faBed, faBath } from '@fortawesome/free-solid-svg-icons';
+import { faBed, faBath, faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart'
 
@@ -475,7 +475,7 @@ function Nav() {
 
       </div>
 
-      <div className='cards  w-[100%] h-screen text-white'>
+      <div className='cards  w-[100%] h-fit text-white'>
 
         <div className='grid gap-4 sm:grid-cols-2 md:grid-cols-4 mx-[5%] sm:mx-[1%] pt-6'>
           {/* singlecard */}
@@ -525,6 +525,65 @@ function Nav() {
         </div>
 
 
+
+      </div>
+
+
+      <div className="stars mx-[5%] mt-[4rem] text-center ">
+
+        <h1 className='text-3xl font-forum sm:my-[4rem]'>Discover Estates</h1>
+       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-20">
+               {/* single card */}
+               <div className='pt-[2rem]'>
+          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+          <h1 className='py-[1rem] text-2xl font-forum'>Independence</h1>
+
+          <p className='tracking-tight leading-normal text-sm'>
+            We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+          </p>
+        </div>
+         {/* single card */}
+
+               {/* single card */}
+               <div className='pt-[2rem]'>
+          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+          <h1 className='py-[1rem] text-2xl font-forum'>Professional</h1>
+
+          <p   className='tracking-tight leading-normal text-sm'>
+            We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+          </p>
+        </div>
+         {/* single card */}
+
+               {/* single card */}
+               <div className='pt-[2rem]'>
+          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+          <h1 className='py-[1rem] text-2xl font-forum '>Local</h1>
+
+          <p   className='tracking-tight leading-normal text-sm'>
+            We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+          </p>
+        </div>
+         {/* single card */}
+
+               {/* single card */}
+               <div className='pt-[2rem]'>
+          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+          <h1 className='py-[1rem] text-2xl font-forum'>Passionate</h1>
+
+          <p   className='tracking-tight leading-normal text-sm'>
+            We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+          </p>
+        </div>
+         {/* single card */}
+
+
+       </div>
+        
 
       </div>
 
