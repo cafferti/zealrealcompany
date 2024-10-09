@@ -588,7 +588,7 @@ function Nav() {
       </div>
 
 
-      <div className=' w-[100%] h-screen text-center px-[5%] py-12' >
+      <div className=' w-[100%] h-fit text-center px-[5%] py-12 bg-[#f4f4f4] mt-[3rem]' >
          <h1 className='text-[17px] pb-6 text-[rgb(51,51,1)] leading-tight  tracking-tight text-2xl font-forum'> Latest Videos</h1>
          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/*  */}
@@ -599,24 +599,22 @@ function Nav() {
          {/*  */}
 
          <div className="rounded-2xl shadow-md">
-         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]'  width="560" height="315" src="https://www.youtube.com/embed/B1BLeAdBUAE?si=0bbBM1WNQI5ZvL6m" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property With Kevin</p>
+         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]'  width="560" height="315" src="https://www.youtube.com/embed/B1BLeAdBUAE?si=0bbBM1WNQI5ZvL6m" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>          
+          <p className='p-8 text-[17px] text-[#226666]'>Luxury Property With Kevin</p>
          </div>
          {/*  */}
 
          <div className="rounded-2xl shadow-md ">
-         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/y9j-BL5ocW8?si=7pvE0LrMWIQSabJ_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>           <p className='p-8 text-[17px] text-[#226666]'>Mansion Walk Throught </p>
+         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/y9j-BL5ocW8?si=7pvE0LrMWIQSabJ_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>           
+         <p className='p-8 text-[17px] text-[#226666]'>Mansion Walk Throught </p>
          </div>
          {/*  */}
 
          <div className="rounded-2xl shadow-md ">
-         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/zumJJUL_ruM?si=rVa3Qhs5czxMJpdx" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours Saulltech</p>
+         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/zumJJUL_ruM?si=rVa3Qhs5czxMJpdx" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>         
+           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours Saulltech</p>
          </div>
          {/*  */}
-
-
-
-
-         
 
          </div>
 
