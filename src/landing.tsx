@@ -202,7 +202,7 @@ function Nav() {
 
       <div className=' text-center px-[5%] bg-[#f3f4f4] pb-[7rem]'>
         <img className='w-[50%] inline-block my-[2.5rem] sm:w-[25%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/08/17/039efcbf-77da-4b43-8b46-9965b02f9ab5.png' alt="" />
-        <h1 className='text-[3rem] mb-5 opacity-80' >Your Selling and Buying Expert</h1>
+        <h1 className=' text-2xl sm:text-[3rem] mb-5 opacity-80' >Your Selling and Buying Expert</h1>
 
         <p className='text-lg tracking-tight leading-normal opacity-85 md:px-[8rem] md:text-xl '>Our main aim is to make moving easy! <br />
           Whether you’re a young couple moving into your first home, an expanding
@@ -586,6 +586,43 @@ function Nav() {
         
 
       </div>
+
+
+      <div className=' w-[100%] h-screen text-center px-[5%] py-12' >
+         <h1 className='text-[17px] pb-6 text-[rgb(51,51,1)] leading-tight  tracking-tight text-2xl font-forum'> Latest Videos</h1>
+         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+          {/*  */}
+         <div className="rounded-2xl shadow-md">
+         <iframe className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="60" height="315" src="https://www.youtube.com/embed/vngXI_x50dc?si=pRS0sjrWccgxdLGM" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours</p>
+         </div>
+         {/*  */}
+
+         <div className="rounded-2xl shadow-md">
+         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]'  width="560" height="315" src="https://www.youtube.com/embed/B1BLeAdBUAE?si=0bbBM1WNQI5ZvL6m" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property With Kevin</p>
+         </div>
+         {/*  */}
+
+         <div className="rounded-2xl shadow-md ">
+         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/y9j-BL5ocW8?si=7pvE0LrMWIQSabJ_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>           <p className='p-8 text-[17px] text-[#226666]'>Mansion Walk Throught </p>
+         </div>
+         {/*  */}
+
+         <div className="rounded-2xl shadow-md ">
+         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/zumJJUL_ruM?si=rVa3Qhs5czxMJpdx" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours Saulltech</p>
+         </div>
+         {/*  */}
+
+
+
+
+         
+
+         </div>
+
+      </div>
+
+
 
     </div>
   )
