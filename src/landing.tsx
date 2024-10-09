@@ -146,233 +146,250 @@ function Nav() {
       <div className=" w-[100%] py-[3rem]">
         <h1 className=' sm:text-left sm:pl-[5%] tracking-tight leading-normal opacity-90 text-lg text-center md:text-center ' >Fatured Properties</h1>
 
-<div className='sm:grid sm:grid-cols-2 md:grid-cols-4'>
+        <div className='sm:grid sm:grid-cols-2 md:grid-cols-4'>
 
-        {/* single card */}
-        <div className="section mx-[5%] pt-[2rem] relative shadow-xl px-[1%] ">
-          <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
-            <img src={saulltecharrowback} alt="" />
-          </button>
+          {/* single card */}
+          <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+            <div>
+              <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
+                <img src={saulltecharrowback} alt="" />
+              </button>
 
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
-            <img src={saulltecharrowfront} alt="" />
-          </button>
+              <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
+                <img src={saulltecharrowfront} alt="" />
+              </button>
 
-          </div>
-
-
-          <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
-            {oncec === 1 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
-                alt="First"
-              />
-            )}
-            {oncec === 2 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
-                alt="Second"
-              />
-            )}
-            {oncec === 3 && (
-              <img className='h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
-                alt="Third"
-              />
-            )}
-          </div>
-
-          <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
-          <h2 className='text-lg my-1'>Upgraded New Build</h2>
-          <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
-          <div className="bed flex gap-2  py-[3rem] pb-[1rem]">
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
-              <p className='opacity-50 text-[23px]'>4</p>
-            </div>
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
-              <p className='opacity-50 text-[23px] '>2</p>
             </div>
 
-          </div>
 
-          <div className='flex justify-between py-[1rem]'>
-            <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
-            <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
-          </div>
-          </div>
-
-          <div className="section mx-[5%] pt-[2rem] relative  shadow-xl px-[1%] rounded-xl ">
-          <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
-            <img src={saulltecharrowback} alt="" />
-          </button>
-
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
-            <img src={saulltecharrowfront} alt="" />
-          </button>
-
-          </div>
-
-
-          <div className='transition-all h-[15rem] w-full]'>
-            {oncec === 1 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
-                alt="First"
-              />
-            )}
-            {oncec === 2 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
-                alt="Second"
-              />
-            )}
-            {oncec === 3 && (
-              <img className='h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
-                alt="Third"
-              />
-            )}
-          </div>
-
-          <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
-          <h2 className='text-lg my-1'>Upgraded New Build</h2>
-          <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
-          <div className="bed flex gap-2  py-[3rem] pb-[1rem]">
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
-              <p className='opacity-50 text-[23px]'>4</p>
-            </div>
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
-              <p className='opacity-50 text-[23px] '>2</p>
+            <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
+              {oncec === 1 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
+                  alt="First"
+                />
+              )}
+              {oncec === 2 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
+                  alt="Second"
+                />
+              )}
+              {oncec === 3 && (
+                <img className='h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
+                  alt="Third"
+                />
+              )}
             </div>
 
-          </div>
+            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h2 className='text-lg my-1'>Upgraded New Build</h2>
+            <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
+            <div className="bed flex gap-2  py-[1rem] ">
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
+                <p className='opacity-50 text-[23px]'>4</p>
+              </div>
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
+                <p className='opacity-50 text-[23px] '>2</p>
+              </div>
 
-          <div className='flex justify-between py-[1rem] '>
-            <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
-            <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
+            </div>
+
+            <div className='flex justify-between py-[1rem]'>
+              <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
+              <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
+            </div>
           </div>
-          </div>      
+          {/* singlecard */}
+
+
+
+                    {/* single card */}
+                    <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+            <div>
+              <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
+                <img src={saulltecharrowback} alt="" />
+              </button>
+
+              <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
+                <img src={saulltecharrowfront} alt="" />
+              </button>
+
+            </div>
+
+
+            <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
+              {oncec === 1 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
+                  alt="First"
+                />
+              )}
+              {oncec === 2 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
+                  alt="Second"
+                />
+              )}
+              {oncec === 3 && (
+                <img className='h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
+                  alt="Third"
+                />
+              )}
+            </div>
+
+            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h2 className='text-lg my-1'>Upgraded New Build</h2>
+            <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
+            <div className="bed flex gap-2  py-[1rem] ">
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
+                <p className='opacity-50 text-[23px]'>4</p>
+              </div>
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
+                <p className='opacity-50 text-[23px] '>2</p>
+              </div>
+
+            </div>
+
+            <div className='flex justify-between py-[1rem]'>
+              <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
+              <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
+            </div>
+          </div>
+          {/* singlecard */}
+
+
+
+
+          {/* single card */}
+          <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+            <div>
+              <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
+                <img src={saulltecharrowback} alt="" />
+              </button>
+
+              <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
+                <img src={saulltecharrowfront} alt="" />
+              </button>
+
+            </div>
+
+
+            <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
+              {oncec === 1 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
+                  alt="First"
+                />
+              )}
+              {oncec === 2 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
+                  alt="Second"
+                />
+              )}
+              {oncec === 3 && (
+                <img className='h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
+                  alt="Third"
+                />
+              )}
+            </div>
+
+            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h2 className='text-lg my-1'>Upgraded New Build</h2>
+            <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
+            <div className="bed flex gap-2  py-[1rem] ">
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
+                <p className='opacity-50 text-[23px]'>4</p>
+              </div>
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
+                <p className='opacity-50 text-[23px] '>2</p>
+              </div>
+
+            </div>
+
+            <div className='flex justify-between py-[1rem]'>
+              <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
+              <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
+            </div>
+          </div>
+          {/* singlecard */}
+
+
+
+          {/* single card */}
+          <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+            <div>
+              <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
+                <img src={saulltecharrowback} alt="" />
+              </button>
+
+              <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
+                <img src={saulltecharrowfront} alt="" />
+              </button>
+
+            </div>
+
+
+            <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
+              {oncec === 1 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
+                  alt="First"
+                />
+              )}
+              {oncec === 2 && (
+                <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
+                  alt="Second"
+                />
+              )}
+              {oncec === 3 && (
+                <img className='h-full object-cover block  rounded-xl w-[100%]'
+                  src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
+                  alt="Third"
+                />
+              )}
+            </div>
+
+            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h2 className='text-lg my-1'>Upgraded New Build</h2>
+            <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
+            <div className="bed flex gap-2  py-[1rem] ">
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
+                <p className='opacity-50 text-[23px]'>4</p>
+              </div>
+              <div className='flex items-center w-[4rem]'>
+                <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
+                <p className='opacity-50 text-[23px] '>2</p>
+              </div>
+
+            </div>
+
+            <div className='flex justify-between py-[1rem]'>
+              <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
+              <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
+            </div>
+          </div>
+          {/* singlecard */}
+
+
+
+ 
+
           
-            <div className="section mx-[5%] pt-[2rem] relative shadow-xl px-[1%] rounded-xl  ">
-          <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
-            <img src={saulltecharrowback} alt="" />
-          </button>
-
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem]'>
-            <img src={saulltecharrowfront} alt="" />
-          </button>
-
-          </div>
 
 
-          <div className='transition-all h-[20rem] w-full sm:h-[15rem]'>
-            {oncec === 1 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
-                alt="First"
-              />
-            )}
-            {oncec === 2 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
-                alt="Second"
-              />
-            )}
-            {oncec === 3 && (
-              <img className='h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
-                alt="Third"
-              />
-            )}
-          </div>
-
-          <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
-          <h2 className='text-lg my-1'>Upgraded New Build</h2>
-          <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
-          <div className="bed flex gap-2  py-[3rem] pb-[1rem]">
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2 ' icon={faBed} />
-              <p className='opacity-50 text-[23px]'>4</p>
-            </div>
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
-              <p className='opacity-50 text-[23px] '>2</p>
-            </div>
-
-          </div>
-
-          <div className='flex justify-between py-[1rem]'>
-            <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
-            <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
-          </div>
-          </div>
-
-          <div className="section mx-[5%] pt-[2rem] relative shadow-xl px-[1%] rounded-xl ">
-          <div>
-          <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
-            <img src={saulltecharrowback} alt="" />
-          </button>
-
-          <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
-            <img src={saulltecharrowfront} alt="" />
-          </button>
-
-          </div>
-
-
-          <div className='transition-all h-[20rem] w-full sm:h-[15rem]'>
-            {oncec === 1 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
-                alt="First"
-              />
-            )}
-            {oncec === 2 && (
-              <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
-                alt="Second"
-              />
-            )}
-            {oncec === 3 && (
-              <img className='h-full object-cover block  rounded-xl w-[100%]'
-                src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
-                alt="Third"
-              />
-            )}
-          </div>
-
-          <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
-          <h2 className='text-lg my-1'>Upgraded New Build</h2>
-          <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
-          <div className="bed flex gap-2  py-[3rem] pb-[1rem]">
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2 ' icon={faBed} />
-              <p className='opacity-50 text-[23px]'>4</p>
-            </div>
-            <div className='flex items-center w-[4rem]'>
-              <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
-              <p className='opacity-50 text-[23px] '>2</p>
-            </div>
-
-          </div>
-
-          <div className='flex justify-between py-[1rem]'>
-            <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
-            <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
-          </div>
-          </div>
-
-
-
-  
-  
 
         </div>
 
