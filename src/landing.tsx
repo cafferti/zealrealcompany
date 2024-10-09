@@ -187,8 +187,7 @@ function Nav() {
         </div>
 
 
-        <div className='text-white text-center sm:h-[100%] sm:py-[10%]
-        '>
+        <div className='text-white text-center sm:h-[100%] sm:py-[5%]'>
           <h1 className='border-b-[1px] py-6 md:w-[30rem] mx-[auto]  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin'>Helping you Sell your Home since 1999</h1>
 
           <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-7  items-center md:items-start md:max-w-[50rem] pt-[1rem] md:mx-auto">
