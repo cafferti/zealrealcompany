@@ -532,95 +532,141 @@ function Nav() {
       <div className="stars mx-[5%] mt-[4rem] text-center ">
 
         <h1 className='text-3xl font-forum sm:my-[4rem]'>Discover Estates</h1>
-       <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-20">
-               {/* single card */}
-               <div className='pt-[2rem]'>
-          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
-          <h1 className='py-[1rem] text-2xl font-forum'>Independence</h1>
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-20">
+          {/* single card */}
+          <div className='pt-[2rem]'>
+            <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+            <h1 className='py-[1rem] text-2xl font-forum'>Independence</h1>
 
-          <p className='tracking-tight leading-normal text-sm'>
-            We are an Independent real estate company, with years of experience to provide the best experience to our customers
+            <p className='tracking-tight leading-normal text-sm'>
+              We are an Independent real estate company, with years of experience to provide the best experience to our customers
 
-          </p>
+            </p>
+          </div>
+          {/* single card */}
+
+          {/* single card */}
+          <div className='pt-[2rem]'>
+            <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+            <h1 className='py-[1rem] text-2xl font-forum'>Professional</h1>
+
+            <p className='tracking-tight leading-normal text-sm'>
+              We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+            </p>
+          </div>
+          {/* single card */}
+
+          {/* single card */}
+          <div className='pt-[2rem]'>
+            <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+            <h1 className='py-[1rem] text-2xl font-forum '>Local</h1>
+
+            <p className='tracking-tight leading-normal text-sm'>
+              We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+            </p>
+          </div>
+          {/* single card */}
+
+          {/* single card */}
+          <div className='pt-[2rem]'>
+            <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
+            <h1 className='py-[1rem] text-2xl font-forum'>Passionate</h1>
+
+            <p className='tracking-tight leading-normal text-sm'>
+              We are an Independent real estate company, with years of experience to provide the best experience to our customers
+
+            </p>
+          </div>
+          {/* single card */}
+
+
         </div>
-         {/* single card */}
 
-               {/* single card */}
-               <div className='pt-[2rem]'>
-          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
-          <h1 className='py-[1rem] text-2xl font-forum'>Professional</h1>
-
-          <p   className='tracking-tight leading-normal text-sm'>
-            We are an Independent real estate company, with years of experience to provide the best experience to our customers
-
-          </p>
-        </div>
-         {/* single card */}
-
-               {/* single card */}
-               <div className='pt-[2rem]'>
-          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
-          <h1 className='py-[1rem] text-2xl font-forum '>Local</h1>
-
-          <p   className='tracking-tight leading-normal text-sm'>
-            We are an Independent real estate company, with years of experience to provide the best experience to our customers
-
-          </p>
-        </div>
-         {/* single card */}
-
-               {/* single card */}
-               <div className='pt-[2rem]'>
-          <FontAwesomeIcon className='text-[#226666] w-[100%] h-[4rem] pr-2' icon={faStar} />
-          <h1 className='py-[1rem] text-2xl font-forum'>Passionate</h1>
-
-          <p   className='tracking-tight leading-normal text-sm'>
-            We are an Independent real estate company, with years of experience to provide the best experience to our customers
-
-          </p>
-        </div>
-         {/* single card */}
-
-
-       </div>
-        
 
       </div>
 
 
       <div className=' w-[100%] h-fit text-center px-[5%] py-12 bg-[#f4f4f4] mt-[3rem]' >
-         <h1 className='text-[17px] pb-6 text-[rgb(51,51,1)] leading-tight  tracking-tight text-2xl font-forum'> Latest Videos</h1>
-         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <h1 className='text-[17px] pb-6 text-[rgb(51,51,1)] leading-tight  tracking-tight text-2xl font-forum'> Latest Videos</h1>
+        <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/*  */}
-         <div className="rounded-2xl shadow-md">
-         <iframe className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="60" height="315" src="https://www.youtube.com/embed/vngXI_x50dc?si=pRS0sjrWccgxdLGM" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
-           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours</p>
-         </div>
-         {/*  */}
+          <div className="rounded-2xl shadow-md">
+            <iframe className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="60" height="315" src="https://www.youtube.com/embed/vngXI_x50dc?si=pRS0sjrWccgxdLGM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours</p>
+          </div>
+          {/*  */}
 
-         <div className="rounded-2xl shadow-md">
-         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]'  width="560" height="315" src="https://www.youtube.com/embed/B1BLeAdBUAE?si=0bbBM1WNQI5ZvL6m" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>          
-          <p className='p-8 text-[17px] text-[#226666]'>Luxury Property With Kevin</p>
-         </div>
-         {/*  */}
+          <div className="rounded-2xl shadow-md">
+            <iframe className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/B1BLeAdBUAE?si=0bbBM1WNQI5ZvL6m" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+            <p className='p-8 text-[17px] text-[#226666]'>Luxury Property With Kevin</p>
+          </div>
+          {/*  */}
 
-         <div className="rounded-2xl shadow-md ">
-         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/y9j-BL5ocW8?si=7pvE0LrMWIQSabJ_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>           
-         <p className='p-8 text-[17px] text-[#226666]'>Mansion Walk Throught </p>
-         </div>
-         {/*  */}
+          <div className="rounded-2xl shadow-md ">
+            <iframe className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/y9j-BL5ocW8?si=7pvE0LrMWIQSabJ_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <p className='p-8 text-[17px] text-[#226666]'>Mansion Walk Throught </p>
+          </div>
+          {/*  */}
 
-         <div className="rounded-2xl shadow-md ">
-         <iframe  className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/zumJJUL_ruM?si=rVa3Qhs5czxMJpdx" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>         
-           <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours Saulltech</p>
-         </div>
-         {/*  */}
+          <div className="rounded-2xl shadow-md ">
+            <iframe className='w-full rounded-tl-2xl rounded-tr-2xl sm:h-[15rem]' width="560" height="315" src="https://www.youtube.com/embed/zumJJUL_ruM?si=rVa3Qhs5czxMJpdx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <p className='p-8 text-[17px] text-[#226666]'>Luxury Property Tours Saulltech</p>
+          </div>
+          {/*  */}
 
-         </div>
+        </div>
+        <button className='flex items-center mx-auto bg-[#226666] text-white px-6 py-3  text-center mt-10  rounded-lg opacity-90 '>VIEW ARCHIVE
+        </button>
+
 
       </div>
 
+      <div className='news text-center my-7'>
+        <h1 className='text-[17px] pb-6 text-[rgb(51,51,1)] leading-tight  tracking-tight text-2xl font-forum'> Latest News</h1>
 
+        <div className='grid  sm:grid-cols-2 md:grid-cols-4 mx-[4%] gap-4'>
+          {/*  */}
+          <div className="rounded-2xl shadow-md ">
+            <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/878f8a8a-c5ba-49c2-aa41-428877f5bd9a.jpg' alt="" />
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
+            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
+            </button>
+          </div>
+          {/*  */}
+                    {/*  */}
+                    <div className="rounded-2xl shadow-md ">
+            <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/878f8a8a-c5ba-49c2-aa41-428877f5bd9a.jpg' alt="" />
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
+            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
+            </button>
+          </div>
+          {/*  */}
+          {/*  */}
+          <div className="rounded-2xl shadow-md ">
+            <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/878f8a8a-c5ba-49c2-aa41-428877f5bd9a.jpg' alt="" />
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
+            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
+            </button>
+          </div>
+          {/*  */}
+          {/*  */}
+          <div className="rounded-2xl shadow-md ">
+            <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/878f8a8a-c5ba-49c2-aa41-428877f5bd9a.jpg' alt="" />
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
+            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
+            </button>
+          </div>
+          {/*  */}
+
+        </div>
+      </div>
+      
 
     </div>
   )
