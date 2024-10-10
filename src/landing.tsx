@@ -658,7 +658,7 @@ function Nav() {
           <div className="rounded-2xl shadow-md ">
             <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/e45a8016-a75d-48c6-9e81-7c9dc268c8ec.jpg' alt="" />
             <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>Making your property stand out</h1>
-            <p className='text-left text-sm leading-none px-3'>HOW TO MAKE YOUR RENTAL PROPERTY MORE ATTRACTIVE The property market is a fickle mistress</p>
+            <p className='text-left text-sm leading-none px-3'>HOW TO MAKE YOUR RENTAL PROPERTY MORE <br /> ATTRACTIVE The property market is a fickle mistress</p>
             <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
             </button>
           </div>
