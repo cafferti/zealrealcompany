@@ -13,6 +13,18 @@ import { faBed, faBath, faStar } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart'
 
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import 'swiper/swiper.css'; // Import Swiper styles
+
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 
 
@@ -636,8 +648,8 @@ function Nav() {
             </button>
           </div>
           {/*  */}
-                    {/*  */}
-                    <div className="rounded-2xl shadow-md ">
+          {/*  */}
+          <div className="rounded-2xl shadow-md ">
             <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/4c8e360d-b067-4e75-8456-44205cb16b9e.jpg' alt="" />
             <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>Free Market Valuations for everyone!</h1>
             <p className='text-left text-sm leading-none px-3'>How to get your house valued for free!If you’re intrigued to know how much your house is worth, there are...</p>
@@ -666,7 +678,89 @@ function Nav() {
 
         </div>
       </div>
-      
+
+      <div className=" px-[10%] text-center pt-14 bg-[#f4f4f4]">
+        <h1 className='tracking-tight text-2xl py-2 font-serif pb-6' >What Our Customers Think</h1>
+        <Swiper
+          // install Swiper modules
+          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]} // Add Autoplay module
+          spaceBetween={100}
+          slidesPerView={1} // Show one slide at a time
+          scrollbar={{ draggable: true }}
+          autoplay={{
+            delay: 3000, // Delay between transitions (3 seconds)
+            disableOnInteraction: false, // Autoplay continues after user interaction
+          }}
+          loop={true} // Enable looping
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}
+        >
+          <SwiperSlide>
+            <h2 className='tracking-tight leading-tight text-lg pt-6 font-[17px]'>
+
+              {/* "The Property Webmasters team are a joy to work with, they are always friendly, understanding but, most importantly, very strategically astute. PWM has helped FrenchEntrée develop our French Property Database and lead generation strategy and we are incredibly happy with the level of performance. I would recommend Property Webmasters to everyone, however, rather selfishly I want to keep the PWM team to us." */}
+
+              {/* Ben Stephens, Frenchentree */}
+              {/* "Property Webmasters have built and designed our estate agency website. They have a ‘can-do’ attitude and nothing is a problem. I highly recommend them." */}
+
+              "For the 8 years I have worked with PW I have been consistently impressed with their innovative ideas and dedication. They have helped us nurture our business from start-up to established island portal and provided us with industry insights to both maximise our growth and onboard new technology. The team is always reliable and on time, often working out of hours to complete tasks. They have also assisted greatly with our marketing, SEO, new product launch and new idea generation. I would not hesitate to recommend the team to help your business grow and flourish."</h2>
+            <p className='py-2 text-[#226666] tracking-tight text-sm'>
+              Richard Shelton, Shelton and Lines
+            </p>
+          </SwiperSlide>
+
+          <SwiperSlide>
+
+            <h2 className='tracking-tight leading-tight text-lg pt-6 font-[17px]' >
+              "What an experience. I enquired about online marketing for my property business in Spain in the middle of the Covid, and within 20 days we had the ads set up, landing pages created, and leads flooding in from the first day! To put the cherry on the cake, we had our first conversion after only two weeks of advertising, making us over 1950% ROI!!! Thank you Luke, as you said, we’re just getting started."
+            </h2>
+            <p className='py-2 text-[#226666] tracking-tight text-sm'>
+              Oliver Hornby, One Property Group
+            </p>
+          </SwiperSlide>
+
+          <SwiperSlide>
+
+            <h2 className='tracking-tight leading-tight text-lg pt-6 font-[17px]' >
+              "What an experience. I enquired about online marketing for my property business in Spain in the middle of the Covid, and within 20 days we had the ads set up, landing pages created, and leads flooding in from the first day! To put the cherry on the cake, we had our first conversion after only two weeks of advertising, making us over 1950% ROI!!! Thank you Luke, as you said, we’re just getting started."
+            </h2>
+            <p className='py-2 text-[#226666] tracking-tight text-sm'>
+              Oliver Hornby, One Property Group
+            </p>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+
+            <h2 className='tracking-tight leading-tight text-lg pt-6 font-[17px]' >
+              "What an experience. I enquired about online marketing for my property business in Spain in the middle of the Covid, and within 20 days we had the ads set up, landing pages created, and leads flooding in from the first day! To put the cherry on the cake, we had our first conversion after only two weeks of advertising, making us over 1950% ROI!!! Thank you Luke, as you said, we’re just getting started."
+            </h2>
+            <p className='py-2 text-[#226666] tracking-tight text-sm'>
+              Oliver Hornby, One Property Group
+            </p>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+
+            <h2 className='tracking-tight leading-tight text-lg pt-6 font-[17px]' >
+              "What an experience. I enquired about online marketing for my property business in Spain in the middle of the Covid, and within 20 days we had the ads set up, landing pages created, and leads flooding in from the first day! To put the cherry on the cake, we had our first conversion after only two weeks of advertising, making us over 1950% ROI!!! Thank you Luke, as you said, we’re just getting started."
+            </h2>
+            <p className='py-2 text-[#226666] tracking-tight text-sm'>
+              Oliver Hornby, One Property Group
+            </p>
+          </SwiperSlide>
+
+
+
+          ...
+        </Swiper>
+
+
+      </div>
+
+
+
 
     </div>
   )

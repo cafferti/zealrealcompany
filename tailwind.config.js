@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        forumSerif: ['Forum', 'serif'],
         forum: ['Forum', 'sans-serif'], // Add Forum font family
       },
     },
