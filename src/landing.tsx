@@ -639,8 +639,8 @@ function Nav() {
                     {/*  */}
                     <div className="rounded-2xl shadow-md ">
             <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/4c8e360d-b067-4e75-8456-44205cb16b9e.jpg' alt="" />
-            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
-            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>Free Market Valuations for everyone!</h1>
+            <p className='text-left text-sm leading-none px-3'>How to get your house valued for free!If you’re intrigued to know how much your house is worth, there are...</p>
             <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
             </button>
           </div>
@@ -648,8 +648,8 @@ function Nav() {
           {/*  */}
           <div className="rounded-2xl shadow-md ">
             <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/046835b7-fa1f-46c0-bae2-89c607ca13be.jpg' alt="" />
-            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
-            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>What is home staging and is it worth it?</h1>
+            <p className='text-left text-sm leading-none px-3'>What is home staging?Given that it is good practice to make a home as appealing as possible when placing it up</p>
             <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
             </button>
           </div>
@@ -657,8 +657,8 @@ function Nav() {
           {/*  */}
           <div className="rounded-2xl shadow-md ">
             <img className='rounded-t-3xl h-[12rem] w-[100%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/articles/2022/06/10/e45a8016-a75d-48c6-9e81-7c9dc268c8ec.jpg' alt="" />
-            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>5 Things Landlords should be doing by 2022</h1>
-            <p className='text-left text-sm leading-none px-3'>LandlordHere are the 5 things that landlord should be doing by 2022. 1.  Marketing your</p>
+            <h1 className='mb-3 pt-7 text-[17px]  leading-tight text-base text-left font-bold px-3'>Making your property stand out</h1>
+            <p className='text-left text-sm leading-none px-3'>HOW TO MAKE YOUR RENTAL PROPERTY MORE ATTRACTIVE The property market is a fickle mistress</p>
             <button className='flex items-center mt-7 mx-3  text-[#226666]  py-3  text-center tracking-wide font-bold  rounded-lg opacity-90 '>Read More
             </button>
           </div>
