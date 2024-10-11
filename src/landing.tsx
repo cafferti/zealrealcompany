@@ -679,7 +679,7 @@ function Nav() {
         </div>
       </div>
 
-      <div className=" px-[10%] text-center pt-14 bg-[#f4f4f4] md:px-60">
+      <div className=" px-[10%] text-center pt-14 bg-[#f4f4f4] sm:px-60 md:px-[30%]">
         <h1 className='tracking-tight text-2xl py-2 font-serif pb-6' >What Our Customers Think</h1>
         <Swiper
           // install Swiper modules
