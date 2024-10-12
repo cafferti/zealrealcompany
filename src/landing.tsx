@@ -153,16 +153,16 @@ function Nav() {
     <div className="landing relative">
     <div className=' absolute top-[6rem] right-0  text-white text-center mx-[5%]'>
     <Oval
-        height={60}  // Customize the height
-        width={60}   // Customize the width
-        color="#3498db"  // Customize the color
+        height={60}
+        width={60}   
+        color="#3498db"
         ariaLabel="oval-loading"
-        secondaryColor="#f3f3f3" // Optionally, add a secondary color
-        strokeWidth={2} // Customize the stroke width
+        secondaryColor="#f3f3f3" 
+        strokeWidth={2} 
         strokeWidthSecondary={2}
-        visible={true}  // Ensures the loader is visible
+        visible={true}  
       />
-      <h1 className='text-[8px] mt-[-2rem] opacity-70'>SAULLTECH</h1>
+      <h1 className='text-[8px] font-forumSerif mt-[-2rem] opacity-70'>SAULLTECH</h1>
     </div>
       <main className=" h-screen pb-[15%] bg-center bg-cover w-[100%] bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/slides/2023/10/25/696c44fa-082c-414c-9222-a211b2f6bc83.jpg')]">
         <nav className={`flex justify-between px-[5%] sm:px-[3%] sm:pr-0  py-[1rem] items-center bg sm:py-[1rem] md:pt-0 md:pr-[5%] ${navmonitor}`}>
