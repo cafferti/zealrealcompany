@@ -744,14 +744,17 @@ function Nav() {
         </Swiper>
       </div>
 
-      <footer className=' border border-t border-gray-300 mt-6'>
-        <h1 className='py-8 px-8 text-center text-[17px] font-forumSerif text-2xl pb-8 cursor-pointer' >Popular Location</h1>
-        <section className='bg-[#0d4d4d] text-center py-12 text-white sm:flex'>
+      <footer className='border-t  mt-6'>
+        <h1 className=' text py-8 px-8 text-center text-[17px] font-forumSerif text-2xl pb-8 cursor-pointer' >Popular Location</h1>
+        <section className='bg-[#0d4d4d] text-center py-12 text-white md:flex md:items-center md:gap-4 md:center sm:px-[1%] md:justify-around'>
+          <div className='md:text-right'>
           <h1 className='leading-tight text-2xl  mb-1 font-forumSerif'> Sign up to our  newsletter</h1>
           <h2 className='tracking-tight leading-tight pb-4 mb-4  font-[17px]'> stay up to date with latest news</h2>
-          <div>
+
+          </div>
+          <div className='md:flex md:gap-6'>
           <input className=' w-[90%] rounded-lg text-sm px-4 border-2 h-11 mb-4 border-gray-50 ' type="text" placeholder='Fullname' />
-          <div className=' justify-between items-center  w-[90%] text bg-white mx-auto px-4 pr-1 border-2 h-11 mb-4 border-gray-50 rounded-lg'>
+          <div className='flex justify-between items-center md:w-[150%]  w-[90%] text bg-white mx-auto px-4 pr-1 border-2 h-11 mb-4 border-gray-50 rounded-lg'>
             <input className='w-[90%] mx-auto' type="text" placeholder='Enter Email' />
             <button className='bg-[#aa3939] rounded-lg transition-all tracking-wide uppercase font-bold text-sm px-4 h-9'>
               signup
