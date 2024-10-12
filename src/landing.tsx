@@ -201,7 +201,7 @@ function Nav() {
 
 
         <div className='text-white text-center first-line: sm:h-[100%] sm:py-[5%]'>
-          <h1 className='border-b-[1px] py-6 md:w-[30rem] mt-[20%] sm:mt-0 mx-[auto]  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin'>Helping you Sell your Home since 1999</h1>
+          <h1 className='border-b-[1px] py-6 md:w-[30rem] mt-[20%] sm:mt-0 mx-[auto] font-forumSerif  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin'>Helping you Sell your Home since 1999</h1>
 
           <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-7  items-center md:items-start md:max-w-[50rem] pt-[1rem] md:mx-auto">
             <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6' href="">FOR SALE</a>
@@ -215,7 +215,7 @@ function Nav() {
 
       <div className=' text-center px-[5%] bg-[#f3f4f4] pb-[7rem]'>
         <img className='w-[50%] inline-block my-[2.5rem] sm:w-[25%]' src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/08/17/039efcbf-77da-4b43-8b46-9965b02f9ab5.png' alt="" />
-        <h1 className=' text-2xl sm:text-[3rem] mb-5 opacity-80' >Your Selling and Buying Expert</h1>
+        <h1 className=' text-2xl sm:text-[3rem] mb-5 opacity-80 font-forumSerif' >Your Selling and Buying Expert</h1>
 
         <p className='text-lg tracking-tight leading-normal opacity-85 md:px-[8rem] md:text-xl '>Our main aim is to make moving easy! <br />
           Whether you’re a young couple moving into your first home, an expanding
@@ -232,7 +232,7 @@ function Nav() {
 
 
       <div className=" w-[100%] py-[3rem]">
-        <h1 className=' sm:text-left sm:pl-[5%] tracking-tight leading-normal opacity-90 text-lg text-center md:text-center ' >Fatured Properties</h1>
+        <h1 className=' sm:text-left sm:pl-[5%] tracking-tight font-forumSerif leading-normal opacity-90 text-lg text-center md:text-center ' >Fatured Properties</h1>
 
         <div className='sm:grid sm:grid-cols-2 md:grid-cols-4'>
 
@@ -271,7 +271,7 @@ function Nav() {
               )}
             </div>
 
-            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h1 className=' leading-tight font-forumSerif uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
             <h2 className='text-lg my-1'>Upgraded New Build</h2>
             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
             <div className="bed flex gap-2  py-[1rem] ">
@@ -329,7 +329,7 @@ function Nav() {
               )}
             </div>
 
-            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h1 className=' font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
             <h2 className='text-lg my-1'>Upgraded New Build</h2>
             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
             <div className="bed flex gap-2  py-[1rem] ">
@@ -389,7 +389,7 @@ function Nav() {
               )}
             </div>
 
-            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h1 className=' font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
             <h2 className='text-lg my-1'>Upgraded New Build</h2>
             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
             <div className="bed flex gap-2  py-[1rem] ">
@@ -452,7 +452,7 @@ function Nav() {
               )}
             </div>
 
-            <h1 className=' leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+            <h1 className='font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
             <h2 className='text-lg my-1'>Upgraded New Build</h2>
             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
             <div className="bed flex gap-2  py-[1rem] ">
