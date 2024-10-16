@@ -14,7 +14,7 @@ import { faLinkedin, faFacebook, faInstagram, faTwitter } from '@fortawesome/fre
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart'
 import { Oval } from 'react-loader-spinner';
-
+import zeallogo from './assets/zeallogo.jpeg'
 
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/swiper.css'; // Import Swiper styles
@@ -151,28 +151,30 @@ function Nav() {
 
   return (
     <div className="landing relative">
-    <div className=' absolute top-[6rem] right-0  text-white text-center mx-[5%]'>
-    <Oval
-        height={60}
-        width={60}   
-        color="#3498db"
-        ariaLabel="oval-loading"
-        secondaryColor="#f3f3f3" 
-        strokeWidth={2} 
-        strokeWidthSecondary={2}
-        visible={true}  
-      />
-      <h1 className='text-[8px] font-forumSerif mt-[-2rem] opacity-70'>SAULLTECH</h1>
-    </div>
+      <div className=' absolute top-[6rem] right-0  text-white text-center mx-[5%]'>
+        <Oval
+          height={60}
+          width={60}
+          color="#3498db"
+          ariaLabel="oval-loading"
+          secondaryColor="#f3f3f3"
+          strokeWidth={2}
+          strokeWidthSecondary={2}
+          visible={true}
+        />
+        <h1 className='text-[8px] font-forumSerif mt-[-2rem] opacity-70'>SAULLTECH</h1>
+      </div>
       <main className=" h-screen pb-[15%] bg-center bg-cover w-[100%] bg-[url('https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/slides/2023/10/25/696c44fa-082c-414c-9222-a211b2f6bc83.jpg')]">
         <nav className={`flex justify-between px-[5%] sm:px-[3%] sm:pr-0  py-[1rem] items-center bg sm:py-[1rem] md:pt-0 md:pr-[5%] ${navmonitor}`}>
           <img className="w-[50%] sm:w-[30%] lg:w-[15%] h-[50%] md:w-[15%] md:pt-1" src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/logos/2022/08/17/34f7a0a9-8d33-4345-93ff-699c5611dfa4.png' alt="" />
+          {/* <img className="w-[50%] sm:w-[30%] lg:w-[15%] h-[50%] md:w-[15%] md:pt-1" src={zeallogo} alt="" /> */}
+
 
 
           <div className='  w-[35%]  md:w-[60%]  transition-all '>
             <div className='flex items-center justify-end md:border-b md:py-1'>
-              <a className='w-fit md:flex items-center md:mr-[]' href=""> <img className='md:w-[12%] text-white w-[70%] sm:w-[55%] opacity-70' src={saulltechimg} alt="" /> <p className='text-white px-1 hidden md:block text-[60%] opacity-80' >selveencompanyltd@gmail.com</p> </a>
-              <a className='md:flex items-center justify-end' href=""> <img className=' w-[70%] sm:w-[55%] md:w-[12%] opacity-70' src={saulltechphone} alt="" /> <p className="text-white px-1 hidden md:block text-[60%] opacity-80">08144926731</p> </a>
+              <a className='w-fit md:flex items-center md:mr-[]' href="mailto:zealrealestate@gmail.com"> <img className='md:w-[12%] text-white w-[70%] sm:w-[55%] opacity-70' src={saulltechimg} alt="" /> <p className='text-white px-1 hidden md:block text-[60%] opacity-80' >Zealrealestate@gmail.com</p> </a>
+              <a className='md:flex items-center justify-end' href=""> <img className=' w-[70%] sm:w-[55%] md:w-[12%] opacity-70' src={saulltechphone} alt="" /> <p className="text-white px-1 hidden md:block text-[60%] opacity-80">0813812988</p> </a>
               <img onClick={togglenav} className='opacity-70 w-[30%] sm:w-[15%] md:hidden' src={navmonitor === '' ? saulltechmenu : saulltechclose} alt="" />
             </div>
 
@@ -216,7 +218,7 @@ function Nav() {
 
 
         <div className='text-white text-center first-line: sm:h-[100%] sm:py-[5%]'>
-          <h1 className='border-b-[1px] py-6 md:w-[30rem] mt-[20%] sm:mt-0 mx-[auto] font-forumSerif  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin'>Helping you Sell your Home since 1999</h1>
+          <h1 className='border-b-[1px] py-6 md:w-[30rem] mt-[20%] sm:mt-0 mx-[auto] font-forumSerif  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin'>Zeal Real Estate And Interiors.....</h1>
 
           <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-7  items-center md:items-start md:max-w-[50rem] pt-[1rem] md:mx-auto">
             <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6' href="">FOR SALE</a>
@@ -763,18 +765,18 @@ function Nav() {
         <h1 className=' text py-8 px-8 text-center text-[17px] font-forumSerif text-2xl pb-8 cursor-pointer' >Popular Location</h1>
         <section className='bg-[#0d4d4d] text-center py-12 text-white md:flex md:items-center md:gap-4 md:center sm:px-[1%] md:justify-around'>
           <div className='md:text-right'>
-          <h1 className='leading-tight text-2xl  mb-1 font-forumSerif'> Sign up to our  newsletter</h1>
-          <h2 className='tracking-tight leading-tight pb-4 mb-4  font-[17px]'> stay up to date with latest news</h2>
+            <h1 className='leading-tight text-2xl  mb-1 font-forumSerif'> Sign up to our  newsletter</h1>
+            <h2 className='tracking-tight leading-tight pb-4 mb-4  font-[17px]'> stay up to date with latest news</h2>
 
           </div>
           <div className='md:flex md:gap-6'>
-          <input className=' w-[90%] rounded-lg text-sm px-4 border-2 h-11 mb-4 border-gray-50 ' type="text" placeholder='Fullname' />
-          <div className='flex justify-between items-center md:w-[150%]  w-[90%] text bg-white mx-auto px-4 pr-1 border-2 h-11 mb-4 border-gray-50 rounded-lg'>
-            <input className='w-[90%] mx-auto' type="text" placeholder='Enter Email' />
-            <button className='bg-[#aa3939] rounded-lg transition-all tracking-wide uppercase font-bold text-sm px-4 h-9'>
-              signup
-            </button>
-          </div>
+            <input className=' w-[90%] rounded-lg text-sm px-4 border-2 h-11 mb-4 border-gray-50 ' type="text" placeholder='Fullname' />
+            <div className='flex justify-between items-center md:w-[150%]  w-[90%] text bg-white mx-auto px-4 pr-1 border-2 h-11 mb-4 border-gray-50 rounded-lg'>
+              <input className='w-[90%] mx-auto' type="text" placeholder='Enter Email' />
+              <button className='bg-[#aa3939] rounded-lg transition-all tracking-wide uppercase font-bold text-sm px-4 h-9'>
+                signup
+              </button>
+            </div>
 
           </div>
         </section>
@@ -789,16 +791,16 @@ function Nav() {
               <a className='text-[17px] opacity-90 block' href="">Meet The Team</a>
               <a className='text-[17px] opacity-90 block' href="">Testimonial</a>
               <a className='text-[17px] opacity-90 block' href="">News</a>
-              <a className='text-[17px] opacity-90 block' href="">Contaact Us</a>
+              <a className='text-[17px] opacity-90 block' href="">Contact Us</a>
             </div>
           </div>
 
           <div className='text-white py-6 border-b md:border-none  sm:mx-[10%]'>
             <h1 className='tracking-tight font-bold text-lg'>Socials</h1>
             <div className='mt-3'>
-              <a className='text-[17px] opacity-90 block' href="">Facebook</a>
+              <a className='text-[17px] opacity-90 block' href="https://www.facebook.com/profile.php?id=61554711257755&mibextid=LQQJ4d">Facebook</a>
               <a className='text-[17px] opacity-90 block' href=""> LinkedIn</a>
-              <a className='text-[17px] opacity-90 block' href="">Instagram</a>
+              <a className='text-[17px] opacity-90 block' href="https://www.instagram.com/zeal_real_estate_and_interior_?igsh=OGQ5ZDc2ODk2ZA==">Instagram</a>
 
             </div>
           </div>
@@ -815,8 +817,8 @@ function Nav() {
           <div className='text-white py-6 border-b md:border-none  sm:mx-[10%]'>
             <h1 className='tracking-tight font-bold text-lg'>Get In Touch</h1>
             <div className='mt-3'>
-              <a className='text-[17px] opacity-90 block' href="">+44 (777 444 555)</a>
-              <a className='text-[17px] opacity-90 block' href=""> saulltech@gmail.com</a>
+              <a className='text-[17px] opacity-90 block' href="">+234(8138129988)</a>
+              <a className='text-[17px] opacity-90 block' href="mailto:zealrealestate@gmail.com">Zealrealestate@gmail</a>
             </div>
           </div>
 
@@ -830,14 +832,18 @@ function Nav() {
 
         </div>
         <div className='py-5 bg-[#003333] text-center border-t'>
-            <FontAwesomeIcon icon={faLinkedin} className="text-xl px-2 text-white opacity-90" />
-            <FontAwesomeIcon icon={faFacebook} className="text-xl px-2 text-white opacity-90" />
-            <FontAwesomeIcon icon={faInstagram} className="text-xl px-2 text-white opacity-90" />
-            <FontAwesomeIcon icon={faTwitter} className="text-xl px-2 text-white opacity-90" />
-            <p className='text-white pt-7 opacity-70'>
-              Copyright Discover 2024. All rights reserved.
-            </p>
-          </div>
+          <a href=""><FontAwesomeIcon icon={faLinkedin} className="text-xl px-2 text-white opacity-90" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61554711257755&mibextid=LQQJ4d"><FontAwesomeIcon icon={faFacebook} className="text-xl px-2 text-white opacity-90" />
+          </a>
+          <a href="https://www.instagram.com/zeal_real_estate_and_interior_?igsh=OGQ5ZDc2ODk2ZA=="><FontAwesomeIcon icon={faInstagram} className="text-xl px-2 text-white opacity-90" />
+          </a>
+          <a href=""><FontAwesomeIcon icon={faTwitter} className="text-xl px-2 text-white opacity-90" />
+          </a>
+          <p className='text-white pt-7 opacity-70'>
+            Copyright Discover 2024. All rights reserved.
+          </p>
+        </div>
 
 
       </footer>
