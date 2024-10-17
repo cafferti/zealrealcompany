@@ -18,13 +18,11 @@ import { NavLink } from 'react-router-dom'
 
 
 
-
-
-function buy() {
+function rent() {
 
     const [navmonitor, Setnavmonitor] = useState('')
     const [navmonitor2, Setnavmonitor2] = useState('hidden')
-    const [oncec, setoncec] = useState(1)
+    // const [oncec, setoncec] = useState(1)
     const [twice, settwice] = useState(1)
     const [thrice, setthrice] = useState(1)
     const [fourth, setfourth] = useState(1)
@@ -37,25 +35,25 @@ function buy() {
 
 
     // Increment function carousel
-    const incrementOncec = () => {
-        if (oncec < 3) {
-            console.log(oncec)
+    // const incrementOncec = () => {
+    //     if (oncec < 3) {
+    //         console.log(oncec)
 
-            setoncec(oncec + 1);
-        } else {
-            setoncec(3);
-            console.log(oncec)
-        }
-    };
+    //         setoncec(oncec + 1);
+    //     } else {
+    //         setoncec(3);
+    //         console.log(oncec)
+    //     }
+    // };
 
-    // Decrement function carousel
-    const decrementOncec = () => {
-        if (oncec > 1) {
-            setoncec(oncec - 1);
-        } else {
-            setoncec(1);
-        }
-    };
+    // // Decrement function carousel
+    // const decrementOncec = () => {
+    //     if (oncec > 1) {
+    //         setoncec(oncec - 1);
+    //     } else {
+    //         setoncec(1);
+    //     }
+    // };
 
 
 
@@ -158,10 +156,10 @@ function buy() {
                         <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
                         <NavLink to='/rent?' className='block opacity-90'>Rent</NavLink>
                         <NavLink to='/newbuilds?' className=' block  opacity-90'>New Builds </NavLink>
-                        <NavLink to='/valuation' className='block opacity-90'>Valuation</NavLink>
-                        <NavLink to='/about' className='block  opacity-90'>About</NavLink>
-                        <NavLink to='/news' className='block opacity-90'>News</NavLink>
-                        <NavLink to='/contacts' className='block opacity-90'>Contact </NavLink>
+                        <NavLink to='/valuation?' className='block opacity-90'>Valuation</NavLink>
+                        <NavLink to='/about?' className='block  opacity-90'>About</NavLink>
+                        <NavLink to='/news?' className='block opacity-90'>News</NavLink>
+                        <NavLink to='/contacts?' className='block opacity-90'>Contact </NavLink>
                         <div className='w-[2rem] rounded-[50%] opacity-90 '>
                             <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
                         </div>
@@ -201,67 +199,11 @@ function buy() {
 
                 <div className=" w-[100%] py-[3rem]">
                     <h2 className='text-center leading-tight md:text-left font-semibold my-2'>
-                        Properties for sale in alll locations(4)
+                        Properties for Rent in all locations(3)
                     </h2>
 
                     <div className='sm:grid sm:grid-cols-2 md:grid-cols-4'>
 
-                        {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
-                            <div>
-                                <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
-                                    <img src={saulltecharrowback} alt="" />
-                                </button>
-
-                                <button onClick={incrementOncec} className='absolute right-[5%] top-[12rem] sm:top-[8rem] '>
-                                    <img src={saulltecharrowfront} alt="" />
-                                </button>
-
-                            </div>
-
-
-                            <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
-                                {oncec === 1 && (
-                                    <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/PG8TLQUI912UBKu9GXF0RLr5dtoGyTEL.jpeg"
-                                        alt="First"
-                                    />
-                                )}
-                                {oncec === 2 && (
-                                    <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/wwVnBOX5jMx9Lh81NhFtSrellCRkOtxM.jpg"
-                                        alt="Second"
-                                    />
-                                )}
-                                {oncec === 3 && (
-                                    <img className='h-full object-cover block  rounded-xl w-[100%]'
-                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/N6yryl9qbqHiSyE0QvgmCIJwJekFoC4f.jpg"
-                                        alt="Third"
-                                    />
-                                )}
-                            </div>
-
-                            <h1 className=' leading-tight font-forumSerif uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
-                            <h2 className='text-lg my-1'>Upgraded New Build</h2>
-                            <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
-                            <div className="bed flex gap-2  py-[1rem] ">
-                                <div className='flex items-center w-[4rem]'>
-                                    <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBed} />
-                                    <p className='opacity-50 text-[23px]'>4</p>
-                                </div>
-                                <div className='flex items-center w-[4rem]'>
-                                    <FontAwesomeIcon className='text-[#003333] h-[1.5rem] pr-2' icon={faBath} />
-                                    <p className='opacity-50 text-[23px] '>2</p>
-                                </div>
-
-                            </div>
-
-                            <div className='flex justify-between py-[1rem]'>
-                                <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
-                                <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
-                            </div>
-                        </div>
-                        {/* singlecard */}
 
 
                         {/* single card */}
@@ -463,4 +405,4 @@ function buy() {
     )
 }
 
-export default buy
+export default rent

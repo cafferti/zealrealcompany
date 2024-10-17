@@ -18,15 +18,13 @@ import { NavLink } from 'react-router-dom'
 
 
 
-
-
-function buy() {
+function newbuilds() {
 
     const [navmonitor, Setnavmonitor] = useState('')
     const [navmonitor2, Setnavmonitor2] = useState('hidden')
-    const [oncec, setoncec] = useState(1)
+    // const [oncec, setoncec] = useState(1)
     const [twice, settwice] = useState(1)
-    const [thrice, setthrice] = useState(1)
+    // const [thrice, setthrice] = useState(1)
     const [fourth, setfourth] = useState(1)
 
 
@@ -37,25 +35,25 @@ function buy() {
 
 
     // Increment function carousel
-    const incrementOncec = () => {
-        if (oncec < 3) {
-            console.log(oncec)
+    // const incrementOncec = () => {
+    //     if (oncec < 3) {
+    //         console.log(oncec)
 
-            setoncec(oncec + 1);
-        } else {
-            setoncec(3);
-            console.log(oncec)
-        }
-    };
+    //         setoncec(oncec + 1);
+    //     } else {
+    //         setoncec(3);
+    //         console.log(oncec)
+    //     }
+    // };
 
     // Decrement function carousel
-    const decrementOncec = () => {
-        if (oncec > 1) {
-            setoncec(oncec - 1);
-        } else {
-            setoncec(1);
-        }
-    };
+    // const decrementOncec = () => {
+    //     if (oncec > 1) {
+    //         setoncec(oncec - 1);
+    //     } else {
+    //         setoncec(1);
+    //     }
+    // };
 
 
 
@@ -81,25 +79,25 @@ function buy() {
 
 
 
-    const incrementthrice = () => {
-        if (thrice < 3) {
-            console.log(thrice)
+    // const incrementthrice = () => {
+    //     if (thrice < 3) {
+    //         console.log(thrice)
 
-            setthrice(thrice + 1);
-        } else {
-            setthrice(3);
-            console.log(thrice)
-        }
-    };
+    //         setthrice(thrice + 1);
+    //     } else {
+    //         setthrice(3);
+    //         console.log(thrice)
+    //     }
+    // };
 
     // Decrement function carousel
-    const decrementthrice = () => {
-        if (thrice > 1) {
-            setthrice(thrice - 1);
-        } else {
-            setthrice(1);
-        }
-    };
+    // const decrementthrice = () => {
+    //     if (thrice > 1) {
+    //         setthrice(thrice - 1);
+    //     } else {
+    //         setthrice(1);
+    //     }
+    // };
 
 
 
@@ -155,13 +153,14 @@ function buy() {
 
 
                     <div className=' text-white w-[100%] text-[10px]  justify-between mt-2 hidden md:flex '>
-                        <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
+                        <NavLink to='/buy?' className='block opacity-90'>Buy</NavLink>
+
                         <NavLink to='/rent?' className='block opacity-90'>Rent</NavLink>
                         <NavLink to='/newbuilds?' className=' block  opacity-90'>New Builds </NavLink>
-                        <NavLink to='/valuation' className='block opacity-90'>Valuation</NavLink>
-                        <NavLink to='/about' className='block  opacity-90'>About</NavLink>
-                        <NavLink to='/news' className='block opacity-90'>News</NavLink>
-                        <NavLink to='/contacts' className='block opacity-90'>Contact </NavLink>
+                        <NavLink to='/valuation?' className='block opacity-90'>Valuation</NavLink>
+                        <NavLink to='/about?' className='block  opacity-90'>About</NavLink>
+                        <NavLink to='/news?' className='block opacity-90'>News</NavLink>
+                        <NavLink to='/contacts?' className='block opacity-90'>Contact </NavLink>
                         <div className='w-[2rem] rounded-[50%] opacity-90 '>
                             <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
                         </div>
@@ -175,7 +174,7 @@ function buy() {
 
             <div className={`bg-[#003333] text-white z-10 absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2}`}>
                 <NavLink to='/buy?' className='block py-2 opacity-70'>Buy</NavLink>
-                <NavLink to='/rent?' className='block py-2  opacity-70'>Rent</NavLink>
+                <NavLink to='rent?' className='block py-2  opacity-70'>Rent</NavLink>
                 <NavLink to='/newbuilds?' className=' block py-2 opacity-70'>New Builds </NavLink>
                 <NavLink to='/valuation?' className='block py-2 opacity-70'>Valuation</NavLink>
                 <NavLink to='/about?' className='block py-2 opacity-70'>About</NavLink>
@@ -201,13 +200,13 @@ function buy() {
 
                 <div className=" w-[100%] py-[3rem]">
                     <h2 className='text-center leading-tight md:text-left font-semibold my-2'>
-                        Properties for sale in alll locations(4)
+                        Properties for sale in alll locations(2)
                     </h2>
 
                     <div className='sm:grid sm:grid-cols-2 md:grid-cols-4'>
 
                         {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+                        {/* <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
                             <div>
                                 <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                                     <img src={saulltecharrowback} alt="" />
@@ -260,7 +259,7 @@ function buy() {
                                 <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
                                 <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
                             </div>
-                        </div>
+                        </div> */}
                         {/* singlecard */}
 
 
@@ -280,16 +279,20 @@ function buy() {
 
                             <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
                                 {twice === 1 && (
-                                    <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/pdfoac4As3x8f5L8csHqppzI9SSSC7Rl.jpg"
-                                        alt="First"
-                                    />
-                                )}
-                                {twice === 2 && (
+
                                     <img className=' h-full object-cover block  rounded-xl w-[100%]'
                                         src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/air8HNcXdQE33H5E0wVgnfXDx14swu2X.jpg"
                                         alt="Second"
                                     />
+
+                                )}
+                                {twice === 2 && (
+                                    <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/pdfoac4As3x8f5L8csHqppzI9SSSC7Rl.jpg"
+                                        alt="First"
+                                    />
+
+
                                 )}
                                 {twice === 3 && (
                                     <img className='h-full object-cover block  rounded-xl w-[100%]'
@@ -325,7 +328,7 @@ function buy() {
 
 
                         {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+                        {/* <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
                             <div>
                                 <button onClick={decrementthrice} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                                     <img src={saulltecharrowback} alt="" />
@@ -378,7 +381,7 @@ function buy() {
                                 <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
                                 <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
                             </div>
-                        </div>
+                        </div> */}
                         {/* singlecard */}
 
 
@@ -404,15 +407,18 @@ function buy() {
                             <div className='transition-all h-[20rem] sm:h-[15rem] w-full'>
                                 {fourth === 1 && (
                                     <img className=' h-full object-cover block  rounded-xl w-[100%]'
-                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/M1FJSZS2JvtArmkQTOzdGK2ijikpLl0Z.jpg"
-                                        alt="First"
-                                    />
-                                )}
-                                {fourth === 2 && (
-                                    <img className=' h-full object-cover block  rounded-xl w-[100%]'
                                         src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/lQRv0gcNnXsuQpHce1odx1RvqKFbjDk5.jpg"
                                         alt="Second"
                                     />
+
+
+                                )}
+                                {fourth === 2 && (
+                                    <img className=' h-full object-cover block  rounded-xl w-[100%]'
+                                        src="https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/properties/2022/06/10/md/M1FJSZS2JvtArmkQTOzdGK2ijikpLl0Z.jpg"
+                                        alt="First"
+                                    />
+
                                 )}
                                 {fourth === 3 && (
                                     <img className='h-full object-cover block  rounded-xl w-[100%]'
@@ -463,4 +469,4 @@ function buy() {
     )
 }
 
-export default buy
+export default newbuilds

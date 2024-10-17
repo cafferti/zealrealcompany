@@ -8,26 +8,24 @@ import saulltechclose from './assets/Close_MD.svg'
 import saulltechprofile from './assets/profile.svg'
 import Flag from 'react-world-flags';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import saulltecharrowback from './assets/Frame 155 (1).svg'
-import saulltecharrowfront from './assets/frameack.svg'
-import { faBed, faBath } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart'
+// import saulltecharrowback from './assets/Frame 155 (1).svg'
+// import saulltecharrowfront from './assets/frameack.svg'
+// import { faBed, faBath } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faHeart } from '@fortawesome/free-regular-svg-icons/faHeart'
 import { NavLink } from 'react-router-dom'
 
 
 
 
-
-
-function buy() {
+function valuation() {
 
     const [navmonitor, Setnavmonitor] = useState('')
     const [navmonitor2, Setnavmonitor2] = useState('hidden')
-    const [oncec, setoncec] = useState(1)
-    const [twice, settwice] = useState(1)
-    const [thrice, setthrice] = useState(1)
-    const [fourth, setfourth] = useState(1)
+    // const [oncec, setoncec] = useState(1)
+    // const [twice, settwice] = useState(1)
+    // const [thrice, setthrice] = useState(1)
+    // const [fourth, setfourth] = useState(1)
 
 
 
@@ -37,90 +35,90 @@ function buy() {
 
 
     // Increment function carousel
-    const incrementOncec = () => {
-        if (oncec < 3) {
-            console.log(oncec)
+    // const incrementOncec = () => {
+    //     if (oncec < 3) {
+    //         console.log(oncec)
 
-            setoncec(oncec + 1);
-        } else {
-            setoncec(3);
-            console.log(oncec)
-        }
-    };
+    //         setoncec(oncec + 1);
+    //     } else {
+    //         setoncec(3);
+    //         console.log(oncec)
+    //     }
+    // };
 
-    // Decrement function carousel
-    const decrementOncec = () => {
-        if (oncec > 1) {
-            setoncec(oncec - 1);
-        } else {
-            setoncec(1);
-        }
-    };
-
-
-
-    const incrementtwice = () => {
-        if (twice < 3) {
-            console.log(twice)
-
-            settwice(twice + 1);
-        } else {
-            settwice(3);
-            console.log(twice)
-        }
-    };
-
-    // Decrement function carousel
-    const decrementtwice = () => {
-        if (twice > 1) {
-            settwice(twice - 1);
-        } else {
-            settwice(1);
-        }
-    };
+    // // Decrement function carousel
+    // const decrementOncec = () => {
+    //     if (oncec > 1) {
+    //         setoncec(oncec - 1);
+    //     } else {
+    //         setoncec(1);
+    //     }
+    // };
 
 
 
-    const incrementthrice = () => {
-        if (thrice < 3) {
-            console.log(thrice)
+    // const incrementtwice = () => {
+    //     if (twice < 3) {
+    //         console.log(twice)
 
-            setthrice(thrice + 1);
-        } else {
-            setthrice(3);
-            console.log(thrice)
-        }
-    };
+    //         settwice(twice + 1);
+    //     } else {
+    //         settwice(3);
+    //         console.log(twice)
+    //     }
+    // };
 
-    // Decrement function carousel
-    const decrementthrice = () => {
-        if (thrice > 1) {
-            setthrice(thrice - 1);
-        } else {
-            setthrice(1);
-        }
-    };
-
-
+    // // Decrement function carousel
+    // const decrementtwice = () => {
+    //     if (twice > 1) {
+    //         settwice(twice - 1);
+    //     } else {
+    //         settwice(1);
+    //     }
+    // };
 
 
-    const incrementfourth = () => {
-        if (fourth < 3) {
-            setfourth(fourth + 1);
-        } else {
-            setfourth(3);
-            console.log(fourth)
-        }
-    };
 
-    // Decrement function carousel
-    const decrementfourth = () => {
-        if (fourth > 1) {
-            setfourth(fourth - 1);
-        } else {
-            setfourth(1);
-        }
-    };
+    // const incrementthrice = () => {
+    //     if (thrice < 3) {
+    //         console.log(thrice)
+
+    //         setthrice(thrice + 1);
+    //     } else {
+    //         setthrice(3);
+    //         console.log(thrice)
+    //     }
+    // };
+
+    // // Decrement function carousel
+    // const decrementthrice = () => {
+    //     if (thrice > 1) {
+    //         setthrice(thrice - 1);
+    //     } else {
+    //         setthrice(1);
+    //     }
+    // };
+
+
+
+
+    // const incrementfourth = () => {
+    //     if (fourth < 3) {
+    //         setfourth(fourth + 1);
+    //     } else {
+    //         setfourth(3);
+    //         console.log(fourth)
+    //     }
+    // };
+
+    // // Decrement function carousel
+    // const decrementfourth = () => {
+    //     if (fourth > 1) {
+    //         setfourth(fourth - 1);
+    //     } else {
+    //         setfourth(1);
+    //     }
+    // };
 
 
 
@@ -155,13 +153,13 @@ function buy() {
 
 
                     <div className=' text-white w-[100%] text-[10px]  justify-between mt-2 hidden md:flex '>
-                        <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
+                    <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
                         <NavLink to='/rent?' className='block opacity-90'>Rent</NavLink>
                         <NavLink to='/newbuilds?' className=' block  opacity-90'>New Builds </NavLink>
-                        <NavLink to='/valuation' className='block opacity-90'>Valuation</NavLink>
-                        <NavLink to='/about' className='block  opacity-90'>About</NavLink>
-                        <NavLink to='/news' className='block opacity-90'>News</NavLink>
-                        <NavLink to='/contacts' className='block opacity-90'>Contact </NavLink>
+                        <NavLink to='/valuation?' className='block opacity-90'>Valuation</NavLink>
+                        <NavLink to='/about?' className='block  opacity-90'>About</NavLink>
+                        <NavLink to='/news?' className='block opacity-90'>News</NavLink>
+                        <NavLink to='/contacts?' className='block opacity-90'>Contact </NavLink>
                         <div className='w-[2rem] rounded-[50%] opacity-90 '>
                             <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
                         </div>
@@ -174,7 +172,7 @@ function buy() {
             </nav>
 
             <div className={`bg-[#003333] text-white z-10 absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2}`}>
-                <NavLink to='/buy?' className='block py-2 opacity-70'>Buy</NavLink>
+            <NavLink to='/buy?' className='block py-2 opacity-70'>Buy</NavLink>
                 <NavLink to='/rent?' className='block py-2  opacity-70'>Rent</NavLink>
                 <NavLink to='/newbuilds?' className=' block py-2 opacity-70'>New Builds </NavLink>
                 <NavLink to='/valuation?' className='block py-2 opacity-70'>Valuation</NavLink>
@@ -201,13 +199,13 @@ function buy() {
 
                 <div className=" w-[100%] py-[3rem]">
                     <h2 className='text-center leading-tight md:text-left font-semibold my-2'>
-                        Properties for sale in alll locations(4)
+                        Properties Available for valuation in all locations(0)
                     </h2>
 
                     <div className='sm:grid sm:grid-cols-2 md:grid-cols-4'>
 
                         {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+                        {/* <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
                             <div>
                                 <button onClick={decrementOncec} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                                     <img src={saulltecharrowback} alt="" />
@@ -260,12 +258,12 @@ function buy() {
                                 <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
                                 <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
                             </div>
-                        </div>
+                        </div> */}
                         {/* singlecard */}
 
 
                         {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+                        {/* <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
                             <div>
                                 <button onClick={decrementtwice} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                                     <img src={saulltecharrowback} alt="" />
@@ -318,14 +316,14 @@ function buy() {
                                 <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
                                 <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
                             </div>
-                        </div>
+                        </div> */}
                         {/* singlecard */}
 
 
 
 
                         {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+                        {/* <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
                             <div>
                                 <button onClick={decrementthrice} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                                     <img src={saulltecharrowback} alt="" />
@@ -378,7 +376,7 @@ function buy() {
                                 <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
                                 <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
                             </div>
-                        </div>
+                        </div> */}
                         {/* singlecard */}
 
 
@@ -388,7 +386,7 @@ function buy() {
 
 
                         {/* single card */}
-                        <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
+                        {/* <div className="section mx-[5%] pt-[2rem] relative px-[1%] h-fit shadow-lg rounded-2xl ">
                             <div>
                                 <button onClick={decrementfourth} className='absolute left-[5%] top-[12rem] sm:top-[8rem]'>
                                     <img src={saulltecharrowback} alt="" />
@@ -441,8 +439,8 @@ function buy() {
                                 <p className='rounded-lg text-white tracking-wide uppercase font-bold text-sm py-2  w-[50%] text-center  bg-[#aa3939] max-w-[13rem]'>view details</p>
                                 <FontAwesomeIcon className='text-[#003333] h-[2rem]' icon={faHeart} />
                             </div>
-                        </div>
-                        {/* singlecard */}
+                        </div> */}
+                        {/* singlecard  */}
 
 
 
@@ -463,4 +461,4 @@ function buy() {
     )
 }
 
-export default buy
+export default valuation
