@@ -199,13 +199,13 @@ function Nav() {
         </nav>
 
         <div className={`bg-[#003333] text-white absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2}`}>
-          <NavLink to='/buy?' className='block py-2 opacity-70'>Buy</NavLink>
-          <a className='block py-2  opacity-70' href="">Rent</a>
-          <a className=' block py-2 opacity-70' href="">New Builds </a>
-          <a className='block py-2 opacity-70' href="">Valuation</a>
-          <a className='block py-2 opacity-70' href="">About</a>
-          <a className='block py-2 opacity-70' href="">News</a>
-          <a className='block py-2 opacity-70' href="">Contact </a>
+          <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
+          <NavLink to='/rent?' className='block opacity-90'>Rent</NavLink>
+          <NavLink to='/newbuilds?' className=' block  opacity-90'>New Builds </NavLink>
+          <NavLink to='/valuation?' className='block opacity-90'>Valuation</NavLink>
+          <NavLink to='/about?' className='block  opacity-90'>About</NavLink>
+          <NavLink to='/news?' className='block opacity-90'>News</NavLink>
+          <NavLink to='/contacts?' className='block opacity-90'>Contact </NavLink>
           <div className='w-[4rem] rounded-[50%] opacity-90 pt-[1rem]'>
             <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
           </div>
@@ -221,10 +221,10 @@ function Nav() {
           <h1 className='border-b-[1px] py-6 md:w-[30rem] mt-[20%] sm:mt-0 mx-[auto] font-forumSerif  text-[1.4rem]  tracking-wider md:text-[2rem] md:font-thin'>Zeal Real Estate And Interiors.....</h1>
 
           <div className=" mx-[10%] grid grid-cols-1 gap-[2rem] sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-x-4 gap-y-7  items-center md:items-start md:max-w-[50rem] pt-[1rem] md:mx-auto">
-            <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6' href="">FOR SALE</a>
-            <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6 ' href="">FOR RENT</a>
-            <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6 ' href="">VALUATION</a>
-            <a className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6 ' href="">CONTACT US</a>
+            <NavLink to='/buy?' className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6'>FOR SALE</NavLink>
+            < NavLink to='/rent?' className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6 ' >FOR RENT</NavLink>
+            <NavLink to='/valuation?' className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6 '>VALUATION</NavLink>
+            < NavLink to='/contacts?' className='bg-[#aa3939] w-full whitespace-nowrap text-sm md:text-base text-center tracking-wide font-bold uppercase rounded-lg block transition-all py-3 cta md:px-6 '>CONTACT US</NavLink>
 
           </div>
         </div>
