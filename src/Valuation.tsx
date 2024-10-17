@@ -178,7 +178,7 @@ function valuation() {
                 <NavLink to='/valuation?' className='block py-2 opacity-70'>Valuation</NavLink>
                 <NavLink to='/about?' className='block py-2 opacity-70'>About</NavLink>
                 <NavLink to='/news?' className='block py-2 opacity-70' >News</NavLink>
-                <NavLink to='/contact?' className='block py-2 opacity-70'>Contact </NavLink>
+                <NavLink to='/contacts?' className='block py-2 opacity-70'>Contact </NavLink>
                 <div className='w-[4rem] rounded-[50%] opacity-90 pt-[1rem]'>
                     <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
                 </div>

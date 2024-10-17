@@ -7,6 +7,8 @@ import Buy from './buy'
 import Rent from './rent'
 import Newbuilds from './newbuilds'
 import Valuation from './Valuation'
+import News from './news'
+import Aboutteam from './aboutteam'
 
 
 
@@ -18,8 +20,10 @@ const router = createBrowserRouter(
       <Route path='/rent?' element={<Rent/>}></Route>
       <Route path='/newbuilds?' element={<Newbuilds/>}></Route>
       <Route path='/valuation?' element={<Valuation/>}></Route>
-      <Route path='/news?' element={<Buy/>}></Route>
-      <Route path='/contacts?' element={<Buy/>}></Route>
+      <Route path='/news?' element={<News/>}></Route>
+      <Route path='/contacts?' element={<Aboutteam/>}></Route>
+      <Route path='/About?' element={<Aboutteam/>}></Route>
+
    </Route>
   )
 )
