@@ -66,7 +66,6 @@ function Nav() {
       </nav>
 
       <div className={`bg-[#003333] text-white absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2} `}>
-        <NavLink to='/' className='block py-2 opacity-70'>Buy</NavLink>
         <NavLink to='/buy?' className='block py-2 opacity-70'>Buy</NavLink>
         <NavLink to='/rent?' className='block py-2  opacity-70'>Rent</NavLink>
         <NavLink to='/newbuilds?' className=' block py-2 opacity-70'>New Builds </NavLink>

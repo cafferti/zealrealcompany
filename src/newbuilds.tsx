@@ -174,7 +174,7 @@ function newbuilds() {
 
             <div className={`bg-[#003333] text-white z-10 absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2}`}>
                 <NavLink to='/buy?' className='block py-2 opacity-70'>Buy</NavLink>
-                <NavLink to='rent?' className='block py-2  opacity-70'>Rent</NavLink>
+                <NavLink to='/rent?' className='block py-2  opacity-70'>Rent</NavLink>
                 <NavLink to='/newbuilds?' className=' block py-2 opacity-70'>New Builds </NavLink>
                 <NavLink to='/valuation?' className='block py-2 opacity-70'>Valuation</NavLink>
                 <NavLink to='/about?' className='block py-2 opacity-70'>About</NavLink>

@@ -180,13 +180,13 @@ function Nav() {
 
 
             <div className=' text-white w-[100%] text-[10px]  justify-between mt-2 hidden md:flex '>
-              <a className='block  opacity-90' href="">Buy</a>
-              <a className='block opacity-90' href="">Rent</a>
-              <a className=' block  opacity-90' href="">New Builds </a>
-              <a className='block opacity-90' href="">Valuation</a>
-              <a className='block  opacity-90' href="">About</a>
-              <a className='block opacity-90' href="">News</a>
-              <a className='block opacity-90' href="">Contact </a>
+            <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
+          <NavLink to='/rent?' className='block opacity-90'>Rent</NavLink>
+          <NavLink to='/newbuilds?' className=' block  opacity-90'>New Builds </NavLink>
+          <NavLink to='/valuation?' className='block opacity-90'>Valuation</NavLink>
+          <NavLink to='/about?' className='block  opacity-90'>About</NavLink>
+          <NavLink to='/news?' className='block opacity-90'>News</NavLink>
+          <NavLink to='/contacts?' className='block opacity-90'>Contact </NavLink>
               <div className='w-[2rem] rounded-[50%] opacity-90 '>
                 <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
               </div>
