@@ -1,20 +1,26 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './index.css'
+import { Route, createBrowserRouter,createRoutesFromElements, RouterProvider} from 'react-router-dom'
 import Landing from './landing'
-import Nav from './Nav'
+import Navigationlayout from './navigationlayout'
+import Buy from './buy'
+
+
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<Navigationlayout/>}>
+      <Route  index element={<Landing/>}></Route>
+      <Route path='/buy?' element={<Buy/>}></Route>
+   </Route>
+  )
+)
 
 
 function App() {
   return (
-    <div>
-      <div>
-        <Nav/>
-        <Landing/>
-      </div>
-      
-    </div>
+    <RouterProvider router={router}/>
   )
 }
 

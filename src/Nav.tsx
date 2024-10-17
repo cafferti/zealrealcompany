@@ -4,6 +4,7 @@ import saulltechclose from './assets/Close_MD.svg'
 import saulltechprofile from './assets/profile.svg'
 import Flag from 'react-world-flags';
 import { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom';
 
 
 function Nav() {
@@ -44,7 +45,7 @@ function Nav() {
         <img className="w-[50%] sm:w-[40%] md:w-[15%]  h-[50%]" src='https://agentplus-s3.s3.eu-west-2.amazonaws.com/discover-agentplus/logos/2022/08/17/34f7a0a9-8d33-4345-93ff-699c5611dfa4.png' alt="" />
 
         <div className=' text-white w- text-[10px] transition-all  justify-between mt-2 hidden md:flex w-[60%]'>
-          <a className='block  opacity-90' href="">Buy</a>
+          <NavLink to='/buy?' className='block  opacity-90'>Buy</NavLink>
           <a className='block opacity-90' href="">Rent</a>
           <a className=' block  opacity-90' href="">New Builds </a>
           <a className='block opacity-90' href="">Valuation</a>
@@ -65,7 +66,7 @@ function Nav() {
       </nav>
 
       <div className={`bg-[#003333] text-white absolute w-[100%] px-[5%] text-lg md:hidden  ${navmonitor2} `}>
-        <a className='block py-2 opacity-70' href="">Buy</a>
+        <NavLink to='/' className='block py-2 opacity-70'>Buy</NavLink>
         <a className='block py-2  opacity-70' href="">Rent</a>
         <a className=' block py-2 opacity-70' href="">New Builds </a>
         <a className='block py-2 opacity-70' href="">Valuation</a>
