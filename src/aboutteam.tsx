@@ -99,24 +99,9 @@ function aboutteam() {
 
             <h1 className='text-xl  mb-3  font-medium'>Management</h1>
             <div className='sm:grid sm:grid-cols-2 sm:gap-4'>
-                {/* single card */}
-                <div className='text-center shadow-lg py-5 rounded-xl'>
-                    <img className='rounded-lg w-[100%] h-[27rem] md:h-[22rem]' src={olivia} alt="" />
-                    <h2 className='pt-5 text-lg'>Nebeokike Olivia</h2>
-                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>CEO</p>
-                    <div className='flex justify-center gap-4'>
-                        <a href="">
-                            <img className='bg-[#226666] p-2 rounded-xl' src={saulltechimg} alt="" />
-                        </a>
-                        <a href="">
-                            <img className='bg-[#226666] p-2 rounded-xl' src={saulltechphone} alt="" />
-                        </a>
-                    </div>
-                </div>
-                {/* single card */}
                                 {/* single card */}
-             <div className='text-center shadow-lg py-5 rounded-xl'>
-                    <img className='rounded-lg w-[100%] h-[27rem]  md:h-[22rem]' src={worker1} alt="" />
+                                <div className='text-center shadow-lg py-5 rounded-xl'>
+                    <img className='rounded-lg w-[100%] h-[27rem]  md:h-[22rem]' src={olivia} alt="" />
                     <h2 className='pt-5 text-lg'>Nebeokike Olivia</h2>
                     <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>CEO</p>
                     <div className='flex justify-center gap-4'>
@@ -132,9 +117,24 @@ function aboutteam() {
 
                 {/* single card */}
                 <div className='text-center shadow-lg py-5 rounded-xl'>
+                    <img className='rounded-lg w-[100%] h-[27rem] md:h-[22rem]' src={worker1} alt="" />
+                    <h2 className='pt-5 text-lg'>Paschaline Raymond</h2>
+                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>Marketing Manager</p>
+                    <div className='flex justify-center gap-4'>
+                        <a href="">
+                            <img className='bg-[#226666] p-2 rounded-xl' src={saulltechimg} alt="" />
+                        </a>
+                        <a href="">
+                            <img className='bg-[#226666] p-2 rounded-xl' src={saulltechphone} alt="" />
+                        </a>
+                    </div>
+                </div>
+                {/* single card */}
+                                {/* single card */}
+             <div className='text-center shadow-lg py-5 rounded-xl'>
                     <img className='rounded-lg w-[100%] h-[27rem]  md:h-[22rem]' src={worker3} alt="" />
-                    <h2 className='pt-5 text-lg'>Nebeokike Olivia</h2>
-                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>CEO</p>
+                    <h2 className='pt-5 text-lg'>Chinecherem Samuel</h2>
+                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>Secretary</p>
                     <div className='flex justify-center gap-4'>
                         <a href="">
                             <img className='bg-[#226666] p-2 rounded-xl' src={saulltechimg} alt="" />
@@ -149,8 +149,8 @@ function aboutteam() {
                 {/* single card */}
                 <div className='text-center shadow-lg py-5 rounded-xl'>
                     <img className='rounded-lg w-[100%] h-[27rem]  md:h-[22rem]' src={worker4} alt="" />
-                    <h2 className='pt-5 text-lg'>Nebeokike Olivia</h2>
-                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>CEO</p>
+                    <h2 className='pt-5 text-lg'>Dyelshak Ishaku</h2>
+                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>Digital Operator</p>
                     <div className='flex justify-center gap-4'>
                         <a href="">
                             <img className='bg-[#226666] p-2 rounded-xl' src={saulltechimg} alt="" />
@@ -165,8 +165,8 @@ function aboutteam() {
                 {/* single card */}
                 <div className='text-center shadow-lg py-5 rounded-xl'>
                     <img className='rounded-lg w-[100%] h-[27rem]  md:h-[22rem]' src={Worker2} alt="" />
-                    <h2 className='pt-5 text-lg'>Nebeokike Olivia</h2>
-                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>CEO</p>
+                    <h2 className='pt-5 text-lg'>Nebeokike Brenda</h2>
+                    <p className='text-[#226666] py-1 pb-5 text-sm font-normal'>Operational Manager</p>
                     <div className='flex justify-center gap-4'>
                         <a href="">
                             <img className='bg-[#226666] p-2 rounded-xl' src={saulltechimg} alt="" />
@@ -177,6 +177,7 @@ function aboutteam() {
                     </div>
                 </div>
                 {/* single card */}
+
 
 
 
