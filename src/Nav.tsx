@@ -51,7 +51,7 @@ function Nav() {
           <NavLink to='/valuation?' className='block opacity-90'>Valuation</NavLink>
           <NavLink to='/about?' className='block  opacity-90'>About</NavLink>
           <NavLink to='/news?' className='block opacity-90'>News</NavLink>
-          <NavLink to='/contacts?' className='block opacity-90'>Contact </NavLink>
+          <a href='contactus' className='block opacity-90'>Contact </a>
           <div className='w-[2rem] rounded-[50%] opacity-90 '>
             <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
           </div>
@@ -72,7 +72,7 @@ function Nav() {
         <NavLink to='/valuation?' className='block py-2 opacity-70'>Valuation</NavLink>
         <NavLink to='/about?' className='block py-2 opacity-70'>About</NavLink>
         <NavLink to='/news?' className='block py-2 opacity-70' >News</NavLink>
-        <NavLink to='/contacts?' className='block py-2 opacity-70'>Contact </NavLink>
+        <a href='#contactus' className='block py-2 opacity-70'>Contact </a>
         <div className='w-[4rem] rounded-[50%] opacity-90 pt-[1rem]'>
           <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
         </div>

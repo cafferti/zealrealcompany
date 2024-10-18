@@ -59,10 +59,10 @@ function Footer() {
         </div>
       </div>
 
-      <div className='text-white py-6 border-b md:border-none  sm:mx-[10%]'>
+      <div className='text-white py-6 border-b md:border-none  sm:mx-[10%]' id='contactus'>
         <h1 className='tracking-tight font-bold text-lg'>Get In Touch</h1>
         <div className='mt-3'>
-          <a className='text-[17px] opacity-90 block' href="">+234(8138129988)</a>
+          <a className='text-[17px] opacity-90 block' href="tel:+2348138129988">+234(8138129988)</a>
           <a className='text-[17px] opacity-90 block' href="mailto:zealrealestate@gmail.com">Zealrealestate@gmail</a>
         </div>
       </div>

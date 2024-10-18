@@ -149,7 +149,7 @@ function buy() {
                 <div className='  w-[35%]  md:w-[60%]  transition-all '>
                     <div className='flex items-center justify-end md:border-b md:py-1'>
                         <a className='w-fit md:flex items-center md:mr-[]' href="mailto:zealrealestate@gmail.com"> <img className='md:w-[12%] text-white w-[70%] sm:w-[55%] opacity-70' src={saulltechimg} alt="" /> <p className='text-white px-1 hidden md:block text-[60%] opacity-80' >Zealrealestate@gmail.com</p> </a>
-                        <a className='md:flex items-center justify-end' href=""> <img className=' w-[70%] sm:w-[55%] md:w-[12%] opacity-70' src={saulltechphone} alt="" /> <p className="text-white px-1 hidden md:block text-[60%] opacity-80">0813812988</p> </a>
+                        <a className='md:flex items-center justify-end'  href="tel:+2348138129988"> <img className=' w-[70%] sm:w-[55%] md:w-[12%] opacity-70' src={saulltechphone} alt="" /> <p className="text-white px-1 hidden md:block text-[60%] opacity-80">0813812988</p> </a>
                         <img onClick={togglenav} className='opacity-70 w-[30%] sm:w-[15%] md:hidden' src={navmonitor === '' ? saulltechmenu : saulltechclose} alt="" />
                     </div>
 
@@ -161,7 +161,7 @@ function buy() {
                         <NavLink to='/valuation' className='block opacity-90'>Valuation</NavLink>
                         <NavLink to='/about' className='block  opacity-90'>About</NavLink>
                         <NavLink to='/news' className='block opacity-90'>News</NavLink>
-                        <NavLink to='/contacts' className='block opacity-90'>Contact </NavLink>
+                        <a href='contactus' className='block opacity-90'>Contact </a>
                         <div className='w-[2rem] rounded-[50%] opacity-90 '>
                             <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
                         </div>
@@ -180,7 +180,7 @@ function buy() {
                 <NavLink to='/valuation?' className='block py-2 opacity-70'>Valuation</NavLink>
                 <NavLink to='/about?' className='block py-2 opacity-70'>About</NavLink>
                 <NavLink to='/news?' className='block py-2 opacity-70' >News</NavLink>
-                <NavLink to='/contact?' className='block py-2 opacity-70'>Contact </NavLink>
+                <a href='#contactus' className='block py-2 opacity-70'>Contact </a>
                 <div className='w-[4rem] rounded-[50%] opacity-90 pt-[1rem]'>
                     <Flag className=' w-[100%] rounded-[10rem]' code="NG" height="50" width="50" />
                 </div>
@@ -241,7 +241,7 @@ function buy() {
                                 )}
                             </div>
 
-                            <h1 className=' leading-tight font-forumSerif uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+                            <h1 className=' leading-tight font-forumSerif uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >₦285,000</h1>
                             <h2 className='text-lg my-1'>Upgraded New Build</h2>
                             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
                             <div className="bed flex gap-2  py-[1rem] ">
@@ -299,7 +299,7 @@ function buy() {
                                 )}
                             </div>
 
-                            <h1 className=' font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+                            <h1 className=' font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >₦285,000</h1>
                             <h2 className='text-lg my-1'>Upgraded New Build</h2>
                             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
                             <div className="bed flex gap-2  py-[1rem] ">
@@ -359,7 +359,7 @@ function buy() {
                                 )}
                             </div>
 
-                            <h1 className=' font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+                            <h1 className=' font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >₦285,000</h1>
                             <h2 className='text-lg my-1'>Upgraded New Build</h2>
                             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
                             <div className="bed flex gap-2  py-[1rem] ">
@@ -422,7 +422,7 @@ function buy() {
                                 )}
                             </div>
 
-                            <h1 className='font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >£285,000</h1>
+                            <h1 className='font-forumSerif leading-tight uppercase font-bold text-xl line-clamp-1 py-2 opacity-80' >₦285,000</h1>
                             <h2 className='text-lg my-1'>Upgraded New Build</h2>
                             <p className='tracking-tight text-sm'> Hartelpool,Tennesee, Unites kingdom </p>
                             <div className="bed flex gap-2  py-[1rem] ">

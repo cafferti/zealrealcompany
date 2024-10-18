@@ -1,17 +1,17 @@
+import Nav from './Nav';
+import Footer from './footer';
+import { Outlet } from 'react-router-dom';
+import ScrollToTop from './scrolltop';  // Import ScrollToTop
 
-import Nav from './Nav'
-import Footer from './footer'
-import { Outlet} from 'react-router-dom'
-
-function navigationlayout() {
+function Navigationlayout() {
   return (
-    
     <div>
-        <Nav/>
-        <Outlet/>
-        <Footer/>
+      <ScrollToTop />  
+      <Nav />
+      <Outlet />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default navigationlayout
+export default Navigationlayout;
